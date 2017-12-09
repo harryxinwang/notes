@@ -1792,7 +1792,15 @@ Referential transparency 参照透明 deterministic 确定性的 rewriting syste
  * https://en.wikipedia.org/wiki/Coroutine#Implementations_for_Python
 ### Generator 生成器
  * https://en.wikipedia.org/wiki/Generator_(computer_programming)
-### 生成器 Generators also known as semicoroutines,半xiecheng
+ * https://ewencp.org/blog/golang-iterators/
+ * https://en.wikipedia.org/wiki/Generator_ 多语言Generator
+ * http://www.golangpatterns.info/concurrency/generators
+#### 生成器 Generators also known as semicoroutines,半协程
+#### loop 循环有三种
+```
+iteration 迭代（包括生成器，样本循环） repeatation 重复（计算循环） 这两者输入输出数据是同步的
+ScheduledTask 定时任务（定时循环）输入输出的数据不是同步的
+```
 ### Simulated annealing 模拟退火算法
  * https://en.wikipedia.org/wiki/Simulated_annealing For problems where finding an approximate global optimum is more important than finding a precise local optimum in a fixed amount of time, simulated annealing may be preferable to alternatives such as gradient descent.
  * http://blog.csdn.net/xianlingmao/article/details/7798647 模拟退火算法
@@ -2200,6 +2208,8 @@ arpu Average Revenue Per User(每用户平均收入)
  * /kubernetes/pkg/kubelet/network/cni/cni.go
 ## Go golang
  * https://github.com/golang/go/releases
+ * http://www.golangpatterns.info/object-oriented/classes golang patterns
+ * https://gobyexample.com/arrays
 ### golang DSL
  * https://www.npmjs.com/package/denada
  * https://github.com/xogeny/denada-go Denada is based on a project I once worked on where we needed to build and quickly evolve a simple domain-specific language (DSL)
@@ -2267,8 +2277,12 @@ parser:
  * https://github.com/manifoldco/promptui
 #### error handling
  * https://davidnix.io/post/error-handling-in-go/
- * https://blog.golang.org/errors-are-values
-
+ * https://blog.golang.org/errors-are-values how to handle error
+ * https://davidnix.io/post/error-handling-in-go/ Go's Error Handling is Elegant
+ * https://dave.cheney.net/2012/01/18/why-go-gets-exceptions-right
+ * java exception 的问题，错误流程跟正常流程不同，想共用代码难。
+ * go error 不会改变程序流程，
+ * java 较容易实现Fluent API，但容易隐藏root cause和throw exception不在一个地方，空数据，错误的文件名
 ### go string literals string template 字符串
  * https://golang.org/ref/spec#String_literals
 ### go with dll
@@ -2408,6 +2422,11 @@ https://news.ycombinator.com/item?id=15756054 Low Hanging Fruit of Programming L
  * https://github.com/mcxiaoke/awesome-kotlin
  * Kotlin playground https://try.kotlinlang.org/#/Examples/Hello,%20world!/Simplest%20version/Simplest%20version.kt
  * https://blog.jetbrains.com/kotlin/2017/11/kotlinnative-v0-4-released-objective-c-interop-webassembly-and-more/ kotlin native
+#### kotlin exception
+ * https://kotlinlang.org/docs/reference/exceptions.html java's checked exceptions
+```
+Examination of small programs leads to the conclusion that requiring exception specifications could both enhance developer productivity and enhance code quality, but experience with large software projects suggests a different result – decreased productivity and little or no increase in code quality.
+```
 #### kotlin web
  * https://javalin.io/news/javalin-1.0.0-stable.html
 #### kotlin server adoption

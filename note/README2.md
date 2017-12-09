@@ -58,6 +58,10 @@
  * https://forums.docker.com/t/multiple-host-ips-to-docker-container/3371/2 port mapping
  * https://docs.docker.com/engine/reference/commandline/network/
  * https://github.com/docker/libnetwork/tree/master/drivers
+### docker uid
+ * https://medium.com/@mccode/understanding-how-uid-and-gid-work-in-docker-containers-c37a01d01cf
+ * https://medium.com/on-docker/what-s-montague-docker-user-problems-and-patterns-79750c504aa1
+ * https://www.linux.com/blog/learn/2017/8/hardening-docker-hosts-user-namespaces
 ### cni containernetworking
  * https://github.com/containernetworking/cni
  * https://github.com/containernetworking/plugins/tree/master/plugins/main/ipvlan

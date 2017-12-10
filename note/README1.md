@@ -243,6 +243,26 @@
  * https://github.com/minimalchat/client Client library for Minimal Chat
  * https://github.com/wireapp/bot-sdk-node
  * https://github.com/wireapp/bot-sdk-node/commit/8d51f9bec734866fd604a8c46104a9fede282c14
+##### chatbot intent classification extraction intention detection
+ * https://www.quora.com/What-techniques-are-generally-used-for-intent-recognition-in-NLP
+ * http://www.sohu.com/a/197497954_160850 AI小白也能开发自己的聊天机器人
+ * https://en.wikipedia.org/wiki/Conditional_random_field
+ * https://en.wikipedia.org/wiki/Sequence_labeling
+ * https://github.com/juliali/WeatherBot/tree/master/WeatherBot
+```
+ 意图识别是一个典型的分类模型(e.g. Logistic Regression，Decision Tree等)，而实体抽取则是一个Sequence-to-Sequence判别模型（一般选用Conditional Random Field）
+```
+ * https://www.zhihu.com/question/3586659 用简单易懂的例子解释条件随机场（CRF）模型
+ * https://clyyuanzi.gitbooks.io/julymlnotes/content/crf.html CRF简介
+ * https://www.zhihu.com/question/35866596
+```
+成对马尔科夫性是指给定随机变量组的条件下随机变量和是条件独立的
+Markov property 马尔可夫性 Markov random field 马尔可夫随机场
+Bayesian networks are directed 有向and acyclic 无环, whereas Markov networks are undirected and may be cyclic
+Pairwise Markov property 成对马尔可夫性
+Local Markov property 局部马尔可夫性
+Global Markov property 全局马尔可夫性
+```
 ##### chatbot business
  * https://iq.intel.com/chatbots-power-superior-service/
  * https://www.entrepreneur.com/article/289973 Top 7 Chatbot Monetization Strategies You Need to Know
@@ -254,6 +274,26 @@
  * https://www.cio.com/article/3234351/artificial-intelligence/the-chatbot-startup-that-has-the-fortune-500-listening.html?nsdr=true#tk.cioendnote
  * https://zhuanlan.zhihu.com/p/25749274 http://conversable.com/ 中国版的聊天机器人地图 Chatbots
  * https://blog.keyreply.com/the-chatbot-landscape-2017-edition-ff2e3d2a0bdb
+｀｀｀
+sequence to sequence seq2seq Seq经过Encoder得到中间向量v，再映射到Decoder的概率最大 RNN(LSTM)
+ * https://machinelearningmastery.com/encoder-decoder-long-short-term-memory-networks/
+The list below highlights some interesting applications of the Encoder-Decoder LSTM architecture.
+
+Machine Translation, e.g. English to French translation of phrases.
+Learning to Execute, e.g. calculate the outcome of small programs.
+Image Captioning, e.g. generating a text description for images.
+Conversational Modeling, e.g. generating answers to textual questions.
+Movement Classification, e.g. generating a sequence of commands from a sequence of gestures
+｀｀｀
+#### 语义识别 Voice Recognition
+传统模型
+end to end
+CTC 使用RNN和CTC来进行建模实现了end-to-end语音识别的声学模型
+CTC的全称是Connectionist Temporal Classification，中文翻译大概是连接时序分类它要达到的目标就是直接将语音和相应的文字对应起来，实现时序问题的分类
+https://www.zhihu.com/question/20398418 语音识别的技术原理 https://zhuanlan.zhihu.com/p/27064536?group_id=851279135044153344 中文语音识别
+```
+RNN出现之后，使用RNN来对时序关系进行描述来取代HMM
+```
 #### deepblue
 #### IBM’s Watson
 #####  healthcare, finance, legal, and retail sector.
@@ -356,6 +396,69 @@
  * https://www.zhihu.com/question/26726794 种机器学习的应用场景分别是什么？例如，k近邻,贝叶斯，决策树，svm，逻辑斯蒂回归和最大熵模型
  * https://zhuanlan.zhihu.com/p/25327755 机器学习算法集锦：从贝叶斯到深度学习及各自优缺点
  * https://stackoverflow.com/questions/10317885/decision-tree-vs-naive-bayes-classifier
+ * http://dataunion.org/16817.html 逻辑回归 和 朴素贝叶斯 两者间的区别
+ * http://www.cnblogs.com/kemaswill/p/3427422.html 判别式模型 vs. 生成式模型
+```
+朴素贝叶斯 生成方法 适合小数据 有独立假设 http://www.ruanyifeng.com/blog/2013/12/naive_bayes_classifier.html 朴素贝叶斯案例
+逻辑回归LR 判别方法 适合大数据
+https://www.zhihu.com/question/20446337
+有监督机器学习方法可以分为生成方法和判别方法（常见的生成方法有混合高斯模型、朴素贝叶斯法和隐形马尔科夫模型等，常见的判别方法有SVM、LR等），生成方法学习出的是生成模型，判别方法学习出的是判别模型。
+生成式模型
+判别式分析
+朴素贝叶斯
+K近邻(KNN)
+混合高斯模型
+隐马尔科夫模型(HMM)
+贝叶斯网络
+Sigmoid Belief Networks
+马尔科夫随机场(Markov Random Fields)
+深度信念网络(DBN)
+判别式模型
+
+线性回归(Linear Regression)
+逻辑斯蒂回归(Logistic Regression)
+神经网络(NN)
+支持向量机(SVM)
+高斯过程(Gaussian Process)
+条件随机场(CRF)
+CART(Classification and Regression Tree)
+```
+#### RBM 限制波尔兹曼机（RBM）能量模型
+Boltzmann常数 Gibbs分 系统和它周围的环境处于热平衡时，一个基本的结果是状态i发生的概率
+##### 无监督学习
+ * http://blog.csdn.net/landiaoxinqing/article/details/45482911
+```
+Sparse Coding稀疏编码 Sparse Filtering稀疏滤波 Sparse Autoencoder稀疏自编码 GMM 高斯混合模型
+RBM 受限玻尔兹曼机
+波尔兹曼机（BM）具有强大的非监督学习能力，可以发现数据中潜在规则 波尔兹曼机（RBM）在分类、回归、降噪、高维时间序列分析、图像特征提取、协同过滤等方面，得到了广泛的应用
+ * http://blog.csdn.net/app_12062011/article/details/54313082
+DBN 在靠近可视层的部分使用贝叶斯信念网络（即有向图模型，当然这里依然限制层中节点之间没有链接），而在最远离可视层的部分使用Restricted Boltzmann Machine，我们可以得到DeepBelief Net（DBN
+back propagation BP算法 反向传播算法
+```
+##### 贝叶斯网络
+贝叶斯网络(Bayesian network)，又称信念网络(Belief Network)，或有向无环图模型(directed acyclic graphical model)(Bayesian network)，又称信念网络(Belief Network)，或有向无环图模型(directed acyclic graphical model)
+ * http://blog.csdn.net/v_july_v/article/details/40984699 应用举例
+```
+头对头 头独立
+尾对尾 头已知时，尾独立
+头对尾
+联合概率
+边缘概率（又称先验概率）是某个事件发生的概率 marginal distribution 边际概率
+ deterministic algorithms for statistical inference such as the expectation-maximization algorithm (EM). 期望最大化算法
+Gibbs sampling generates a Markov chain of samples, each of which is correlated with nearby samples
+```
+Rejection sampling acceptance-rejection method  accept-reject algorithm拒绝抽样
+自适应拒绝抽样 使用对数，使用分区密度函数
+Metropolis–Hastings algorithm 都会浮云算法 梅特罗波利斯哈斯汀算法
+Gibbs sampling 吉布斯抽样 blocked Gibbs sampler 结块吉布斯抽样 Collapsed Gibbs sampler 折叠吉布斯抽样 共轭前提分布的情况下，概率密度函数形式不变
+ * https://en.wikipedia.org/wiki/Gibbs_sampling
+Gibbs sampling is particularly well-adapted to sampling the posterior distribution of a Bayesian network
+
+```
+thinning the resulting chain of samples (i.e. only taking every nth value, e.g. every 10th value). It has been shown, however, that using a longer chain instead (e.g. a chain that is n times as long as the initially considered chain using a thinning factor of n) leads to better estimates of the true posterior. Thus, thinning should only be applied when time or computer memory are restricted.
+```
+对比散度算法(Contrastive Divergence)
+ * http://blog.csdn.net/oMengLiShuiXiang1234/article/details/49535393 Gibbs采样、变分方法、对比散度、模拟退火
 ### bayes 大脑
  * https://sanwen8.cn/p/16dGIwa.html 两位博士向我们揭示了一个惊人的事实，那便是人脑中储存得有各种各样的先验概率分布
  * https://baijia.baidu.com/s?old_id=291493 大脑认知机制是贝叶斯式的吗？
@@ -787,6 +890,17 @@ Tensor contraction 张量压缩
  * http://neurogadget.net/2017/02/02/whatsapp-vs-line-vs-wechat-best-features-improvements-comparison/54378
  * http://www.hongkiat.com/blog/whatsapp-viber-wechat-comparison/
  * https://www.quora.com/What-is-the-difference-between-WeChat-and-WhatsApp
+#### chatbot design and development
+ * http://www.sohu.com/a/197497954_160850 AI小白也能开发自己的聊天机器人
+ * https://www.zhihu.com/question/64730096/answer/248820855 如何开发一个特定领域的自动问答机器人(Chat Bot)？
+ * https://dev.botframework.com/
+ * https://www.zhihu.com/question/37366839?sort=created
+ * https://medium.com/@surmenok/natural-language-pipeline-for-chatbots-897bda41482 Natural Language Pipeline for Chatbots
+ * https://medium.com/@brijrajsingh/chat-bots-designing-intents-and-entities-for-your-nlp-models-35c385b7730d Intents and Entities
+##### Microsoft Bot Framework
+ * https://www.cnblogs.com/weschen/p/6495026.html https://github.com/ChenWes/esquel-LPD-Bot-Node-WeChat/tree/dev
+ * https://www.cnblogs.com/ColdHan/p/6273030.html
+ * https://www.cnblogs.com/sonic1abc/p/5941442.html https://github.com/Nick287/WeiXinSDKforBotFrameworkDirectline 如何将 Microsoft Bot Framework 链接至微信公共号
 #### AI music
  *  https://www.theparisreview.org/blog/2017/06/29/in-stargoons-car/?utm_source=Boomtrain&utm_medium=manual&utm_campaign=Paris+Review+Daily+Weekly+20170702&utm_term=Paris+Review+Daily+Weekly+20170702&utm_content=Paris+Review+Daily+Weekly+20170702&bt_ee=/CeGRlN2Sp6DBPdo3s8etN+MDYo58q2xiIGOK/XyFsw/zoUO6mCtR0VHRKtiAsbT&bt_ts=1499001081597
 ### software prototyping
@@ -1015,7 +1129,7 @@ Distributed Machine Learning https://github.com/Microsoft/DMTK
  * https://ethereum.org/cli
  * https://github.com/ethereum/go-ethereum/wiki/Contracts-and-Transactions
  * http://www.gjermundbjaanes.com/understanding-ethereum-smart-contracts/
-#### Ethereum testnet 
+#### Ethereum testnet
  * https://testnet.etherscan.io/
 #### geth console javascript console
  * https://github.com/ethereum/go-ethereum/wiki/Management-APIs List of management APIs
@@ -2764,6 +2878,11 @@ psql -U username -c '\d'
  * http://db-engines.com/en/ranking/graph+dbms
  * 图数据库 http://www.infoq.com/articles/data-modeling-graph-databases
  * http://markorodriguez.com/2011/02/08/property-graph-algorithms/
+### graph database engine design
+ * https://neo4j.com/blog/native-vs-non-native-graph-technology/
+```
+Index-free adjacency
+```
 
 ### Triplestore RDF store Resource Description Framework
  * subject, a predicate, and an object triples
@@ -2776,9 +2895,17 @@ psql -U username -c '\d'
 #### 图数据库设计模式
  * 如何决定一个对象是实体还是关系：原则1:两个实体之间同一类关系只能发生一次，所以只有有没有关系，没有多次关系纪录。关系不会单独持久化，只会在实体中持久化。被动关系不需要在非聚合根实体中持久化，而只需要在聚合根持久化主动方聚合根和统计结果。
 
-### TSDB
+### TSDB time series database
  * http://akumuli.org/akumuli/2017/04/29/nbplustree/ Storage engine design
  * https://en.wikipedia.org/wiki/Log-structured_merge-tree LSM key value store
+#### timescaledb
+ * https://github.com/timescale/timescaledb apache TSDB over PostgreSQL
+ * https://blog.timescale.com/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c
+#### prometheus storage model
+ * https://prometheus.io/docs/introduction/comparison/#data-model-/-storage
+ * https://grafana.com/blog/2016/01/05/logs-and-metrics-and-graphs-oh-my/
+ * https://prometheus.io/docs/operating/integrations/#remote-endpoints-and-storage
+ * https://coreos.com/blog/prometheus-2.0-storage-layer-optimization Sample compression, inverted index, Time sharding, https://nlp.stanford.edu/IR-book/html/htmledition/a-first-take-at-building-an-inverted-index-1.htm
 # desktop skills 桌面操作技巧
 ## mac osx ios
 ### 行首，行尾，上下翻页 fn+left fn+right fn+up fn+down
@@ -4008,6 +4135,36 @@ Well-founded Semantics 良序模型语义 Thus the well-founded model of a logic
 #### semantic web
  * https://en.wikipedia.org/wiki/Knowledge_Graph
  * https://github.com/schemaorg/schemaorg/tree/master/docs
+#### knowledge base
+#### knowledge base graph database
+ * https://news.ycombinator.com/item?id=14315129 	What tools are you using for knowledge graph building?
+ * http://www.infocomm-journal.com/dxkx/article/2016/1000-0801/1000-0801-32-12-00032.shtml 基于图数据库的IPTV内容知识库设计和实现
+ * file:///Users/xwang/Downloads/%E5%9F%BA%E4%BA%8E%E5%9B%BE%E5%BD%A2%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%93%E5%88%A9%E8%AF%AD%E4%B9%89%E7%9F%A5%E8%AF%86%E5%BA%93%E6%9E%84%E5%BB%BA%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6.pdf 基于图形数据库的专利语义知识库
+ * https://neo4j.com/blog/relevant-search-knowledge-graphs-neo4j/
+ * https://github.com/kengz/neo4jKB A graph knowledge base implemented in neo4j
+ * https://neo4j.com/blog/relevant-search-knowledge-graphs-neo4j/ The Use Case: Ecommerce
+ * https://github.com/graknlabs/grakn A Hyper-Relational Database for Knowledge Engineering GPL grakn.ai
+ * https://github.com/blazegraph/database Blazegraph High Performance Graph Database GPL
+ * https://github.com/dgraph-io/dgraph go Fast, Distributed Graph DB Dgraph compared to other graph DBs AGPL
+ * https://github.com/kengz/CGKB
+ * https://en.wikipedia.org/wiki/Triplestore https://en.wikipedia.org/wiki/Named_graph
+ * https://news.ycombinator.com/item?id=14429277 Agens Graph – PostgreSQL Based Graph Database https://github.com/bitnine-oss/agensgraph
+```
+Adding a name to the triple makes a "quad store" or named graph
+```
+ * https://github.com/cayleygraph/cayley graph database behind Freebase and Google's Knowledge Graph. go apache
+##### cayley
+ * https://discourse.cayley.io/t/sparql-and-more-traditional-rdf/207/3
+##### SPARQL
+ * https://en.wikipedia.org/wiki/SPARQL
+ * https://en.wikipedia.org/wiki/List_of_SPARQL_implementations
+ * https://en.wikipedia.org/wiki/List_of_subject-predicate-object_databases
+ * https://www.zhihu.com/question/34835422 本体、知识库、知识图谱、知识图谱识别之间的关系？
+##### temporal graph store
+ * https://github.com/google/badwolf go Temporal graph store abstraction layer. Temporal predicates apache
+ * https://github.com/google/badwolf/blob/master/docs/temporal_graph_modeling.md
+ * https://news.ycombinator.com/item?id=10432071 Google Badwolf: Temporal graph store abstraction layer https://en.wikipedia.org/wiki/Temporal_database
+
 #### knowledge map
  * https://en.wikipedia.org/wiki/Concept_map concept map topic map knowledge map mind map
  * https://learn-anything.xyz/databases/distributed-databases/blockchain
@@ -4015,6 +4172,7 @@ Well-founded Semantics 良序模型语义 Thus the well-founded model of a logic
  * https://metacademy.org/graphs/concepts/deep_belief_networks#focus=deep_belief_networks&mode=explore
 ##### mind map
  * https://en.wikipedia.org/wiki/List_of_concept-_and_mind-mapping_software
+ * coggle
 ##### tab tree to json
  * https://stackoverflow.com/questions/21031651/how-can-i-convert-a-tabbed-tree-to-json-in-javascript
 ##### web scraping

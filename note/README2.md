@@ -936,7 +936,7 @@ fractal dimension主要描述分形最主要的参量。简称分维
  * https://github.com/jeqo/talk-scale-wls-k8s-way
 #### design pattern
  * https://github.com/kamranahmedse/design-patterns-for-humans/blob/master/README.md#behavioral-design-patterns
- *
+ * https://principles.design/  https://news.ycombinator.com/item?id=15894400 Design Principles
 #### Object-relational mapping
  * https://en.wikipedia.org/wiki/List_of_object-relational_mapping_software
 ##### data mapping patterns
@@ -1676,12 +1676,16 @@ Real world example:
  * https://en.wikipedia.org/wiki/Open_Data_Protocol
 
 # programming coding 编程
+
 ## programming contests
  * https://www.thoughtco.com/list-of-programming-contests-challenges-958193
  * https://www.webpagefx.com/blog/web-design/10-puzzle-websites-to-sharpen-your-programming-skills/
  * https://github.com/timfenney/contest/tree/master/uva/contest%20volumes
  * https://news.ycombinator.com/item?id=14661595 http://blog.thefirehoseproject.com/posts/learn-to-code-and-be-self-reliant/
 
+## decompiler
+ * https://blog.avast.com/avast-open-sources-its-machine-code-decompiler
+ * https://github.com/avast-tl/retdec
 ## language comparison
 ### benchmarks
  * https://github.com/kostya/benchmarks
@@ -1745,6 +1749,9 @@ http is the generic interface internet resources
 command line is the generic interface of intention
 #### sql
 sql is the generic interface to access relational data
+##### Q language
+ * https://code.kx.com/q/tutorials/startingq/language/
+ * https://news.ycombinator.com/item?id=15907840
 ####
 semantic and syntactic 语义的和语法的
 semanctics 语义 syntax 语法 mechanism 机制
@@ -2214,6 +2221,9 @@ arpu Average Revenue Per User(每用户平均收入)
  * https://github.com/golang/go/releases
  * http://www.golangpatterns.info/object-oriented/classes golang patterns
  * https://gobyexample.com/arrays
+### golang javascript
+ * https://mat.tm/joy/
+ * https://github.com/matthewmueller/joy
 ### golang DSL
  * https://www.npmjs.com/package/denada
  * https://github.com/xogeny/denada-go Denada is based on a project I once worked on where we needed to build and quickly evolve a simple domain-specific language (DSL)

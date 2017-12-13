@@ -329,6 +329,7 @@ RNN出现之后，使用RNN来对时序关系进行描述来取代HMM
  * https://news.ycombinator.com/item?id=15627340 Alpha Go Zero: How and Why It Works
  * https://github.com/gcp/leela-zero  Go engine with no human-provided knowledge, modeled after the AlphaGo Zero paper.
  * http://timharford.com/2017/11/what-alphago-zero-teaches-us-about-whats-going-wrong-with-innovation/
+ * https://medium.com/@josecamachocollados/is-alphazero-really-a-scientific-breakthrough-in-ai-bf66ae1c84f2 Is AlphaZero really a scientific breakthrough in AI?
 ## machine learning go libraries
  * https://www.quora.com/Is-Go-the-best-programming-language-for-next-generation-A-I-and-machine-learning-applications
  * http://www.fodop.com/ar-1002
@@ -793,7 +794,8 @@ They named “A robot puts away the dishes from a dishwasher without breaking th
   - maximin value of a player is the largest value that the player can be sure to get without knowing the actions of the other players 最大最小策略
    * 手 herefore a ply in chess is a half-move. Thus, after 20 moves in a chess game, 40 plies have been completed—20 by white and 20 by black. In the game of Go, by contrast, a ply is the normal unit of counting moves; so for example to say that a game is 250 moves long is to imply 250 plies
    * Deep Blue (the first one to beat a reigning world champion, Garry Kasparov at that time) looked ahead at least 12 plies, then applied a heuristic evaluation function.
-
+## AI pruning
+ * https://www.ibm.com/blogs/research/2017/12/pruning-ai-networks/?utm_source=twitter&utm_medium=social&utm_campaign=AI&utm_content=nips2017
 ## Monte Carlo tree search (MCTS)
  * https://en.wikipedia.org/wiki/Monte_Carlo_tree_search
  * Monte Carlo tree search (MCTS) is a heuristic search algorithm for some kinds of decision processes,
@@ -805,6 +807,11 @@ They named “A robot puts away the dishes from a dishwasher without breaking th
  * https://hub.docker.com/r/ermaker/keras-jupyter/
  * https://hub.docker.com/r/gw000/keras/
  * https://hub.docker.com/r/tensorflow/tensorflow/
+### structured prediction structured learning
+ * http://kaizhao.me/files/perc-tutorial-masc.pdf
+ * http://web.engr.oregonstate.edu/~huanlian/teaching/machine-learning/2013spring/lec-perceptron.pdf
+ * https://www.infoq.com/presentations/machine-learning-general-programming
+ * https://www.wolframalpha.com/input/?i=2%5E4
 #### scikit-learn
  * http://scikit-learn.org/stable/index.html
 #### OpenCL
@@ -871,6 +878,9 @@ Tensor contraction 张量压缩
  * https://github.com/alfredfrancis/ai-chatbot-framework
  * https://github.com/opencog/opencog
  * https://github.com/aimacode
+### AI interview
+ * https://logicmag.io/01-interview-with-an-anonymous-data-scientist/
+ * https://news.ycombinator.com/item?id=15901628 An Interview with an Anonymous Data Scientist
 #### AI chatbot
  * https://chatbotsmagazine.com/the-complete-beginner-s-guide-to-chatbots-8280b7b906ca
 ##### wechat chatbot weixin chatbot
@@ -2956,6 +2966,8 @@ atlas 支柱
  * https://github.com/HandBrake/HandBrake/
  * https://github.com/mean00/avidemux2
  * https://en.wikipedia.org/wiki/Comparison_of_video_converters
+### video generation
+ * https://github.com/bernhard2202/improved-video-gan/
 ## 视频直播架构
  * http://highscalability.com/blog/2010/3/16/justintvs-live-video-broadcasting-architecture.html  
  * http://highscalability.com/youtube-architecture
@@ -3270,6 +3282,9 @@ cp -r /Users/xwang/Downloads/gopath/src/github.com/kubernetes-incubator/kompose/
  * http://www.jishux.com/plus/view-77744-1.html TerarkDB 数据库的性能报告与技术解析
  * http://www.geeksforgeeks.org/succinct-encoding-of-binary-tree/ https://en.wikipedia.org/wiki/Succinct_data_structure 紧凑数据结构 http://www.geeksforgeeks.org/succinct-encoding-of-binary-tree/
  * https://github.com/amplab/succinct/blob/master/core/src/main/java/edu/berkeley/cs/succinct/util/bitmap/BitMap.java
+#### Learned Index Structures The Case for Learned Index Structures
+ * https://arxiv.org/abs/1712.01208
+ * https://news.ycombinator.com/item?id=15894896
 #### Net Neutrality will die
  * https://www.cringely.com/2017/11/22/15471/
  * https://www.wired.com/story/heres-how-the-end-of-net-neutrality-will-change-the-internet/
@@ -3452,6 +3467,10 @@ LBS
 
 # linux
 ## bash script
+### fish shell
+ * https://news.ycombinator.com/item?id=15910897
+ * https://fishshell.com/
+ * https://github.com/fish-shell/fish-shell.git
 ### bpkg
  * https://github.com/bpkg/bpkg
 ## /etc/apt/sources.list
@@ -3990,6 +4009,12 @@ Actionable Insights
 ```
 ### 逆向思维
 逆向思维也叫求异思维，它是对司空见惯的似乎已成定论的事物或观点反过来思考的一种思维方式。敢于“反其道而思之”，让思维向对立面的方向发展，从问题的相反面深入地进行探索，树立新思想，创立新形象。
+####
+ * http://www.roadandtrack.com/car-culture/a12469411/dont-ask-november-2017/
+ * https://news.ycombinator.com/item?id=15901628
+```
+The customer is always right, but they can give the wrong answers.
+```
 ## Morning person evening person
  * http://www.bbc.com/capital/story/20171114-why-you-shouldnt-try-to-be-a-morning-person
 ##  Hypnagogia   

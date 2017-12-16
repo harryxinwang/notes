@@ -3201,6 +3201,12 @@ git checkout -b <branch>
 git push -u origin <branch>
 git push --all -u
 ```
+#### git errors
+##### unable to access 'https://github.com
+可以切换到git 仓库的URL
+对于https仓库可用push
+git push https://'B_user_name':'B_password'@github.com/
+ * https://stackoverflow.com/questions/13103083/how-do-i-push-to-github-under-a-different-username
 ### git diff git merge
 用本地粉质覆盖master分支
 ```

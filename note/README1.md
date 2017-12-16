@@ -3207,6 +3207,10 @@ git push --all -u
 对于https仓库可用push
 git push https://'B_user_name':'B_password'@github.com/
  * https://stackoverflow.com/questions/13103083/how-do-i-push-to-github-under-a-different-username
+利用命令行更改缓存的用户名密码
+git credential-osxkeychain get
+git credential-osxkeychain erase
+ * https://help.github.com/articles/updating-credentials-from-the-osx-keychain/
 ### git diff git merge
 用本地粉质覆盖master分支
 ```

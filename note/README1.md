@@ -3285,6 +3285,7 @@ cp -r /Users/xwang/Downloads/gopath/src/github.com/kubernetes-incubator/kompose/
 #### Learned Index Structures The Case for Learned Index Structures
  * https://arxiv.org/abs/1712.01208
  * https://news.ycombinator.com/item?id=15894896
+ * https://muratbuffalo.blogspot.jp/2017/12/paper-summary-case-for-learned-index.html
 #### Net Neutrality will die
  * https://www.cringely.com/2017/11/22/15471/
  * https://www.wired.com/story/heres-how-the-end-of-net-neutrality-will-change-the-internet/
@@ -3636,6 +3637,10 @@ $ readlink /proc/<PID>/cwd
 ### make Makefile
 #### .PHONY
 false target, a target that is always executed
+ * https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html
+ * 可以用来防止重名
+#####
+可以用来做状态监测，输出文件纪录
 ### sed
 ```
 sed -i "3i nameserver 114.114.114.114" /etc/resolv.conf

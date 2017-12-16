@@ -2224,6 +2224,17 @@ arpu Average Revenue Per User(每用户平均收入)
 ### golang javascript
  * https://mat.tm/joy/
  * https://github.com/matthewmueller/joy
+### golang command line
+ * https://blog.rapid7.com/2016/08/04/build-a-simple-cli-tool-with-golang/
+ * https://github.com/spf13/cobra
+ * https://tutorialedge.net/golang/creating-restful-api-with-golang/
+ * http://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/
+#### command line examples
+ * https://github.com/Rolinh/elastic-go/blob/master/elastic.go
+ * https://github.com/Automattic/wpgo
+ * https://integratedcode.us/2014/10/10/command-line-rest-api-interface-yes-please/
+ * https://github.com/tcnksm/gcli
+ * https://github.com/Rolinh/elastic-go/blob/master/elastic.go
 ### golang DSL
  * https://www.npmjs.com/package/denada
  * https://github.com/xogeny/denada-go Denada is based on a project I once worked on where we needed to build and quickly evolve a simple domain-specific language (DSL)
@@ -2374,6 +2385,19 @@ Declarative
 声明式编程
 logic paradigm
 逻辑式编程
+polymorphic
+多态
+overloaded method overloading function overloading
+重载
+Variadic varargs
+可变参数
+inheritance
+继承
+override overwrite method overriding
+覆盖
+encapsulation
+封装
+
 https://news.ycombinator.com/item?id=15756054 Low Hanging Fruit of Programming Language Design  wrong abstractions are worse than duplication
 ## haskell functional programming
  * http://blog.csdn.net/on_1y/article/details/8572673#sec-1
@@ -2406,6 +2430,7 @@ https://news.ycombinator.com/item?id=15756054 Low Hanging Fruit of Programming L
 ##### default method in golang
  * https://github.com/golang/go/issues/16254
  * https://groups.google.com/forum/#!topic/golang-nuts/OYpSVcqlHDc
+ * http://changelog.ca/log/2015/01/30/golang default parameter method overloading 方法重载
 ### java9
  * http://www.journaldev.com/13121/java-9-features-with-examples
  * https://dzone.com/articles/java-9-features-announced

@@ -1632,6 +1632,14 @@ Real world example:
 #### docker files
 ##### centos dockerfiles
  * https://github.com/CentOS/CentOS-Dockerfiles
+##### extract docker file
+ * https://stackoverflow.com/questions/19104847/how-to-generate-a-dockerfile-from-an-image
+ * https://github.com/xiaowei0516/dockerfile-from-image (working) https://github.com/CenturyLinkLabs/dockerfile-from-image https://hub.docker.com/r/dduvnjak/dockerfile-from-image/ https://www.linkedin.com/pulse/secret-sauce-tools-generate-docker-file-from-image-jim-zucker-
+ * http://blog.replicated.com/refactoring-a-dockerfile-for-image-size/ https://hackernoon.com/tips-to-reduce-docker-image-sizes-876095da3b34 reduce size
+##### systemd-nspawn dnf machinectl
+dnf
+ * https://www.freedesktop.org/software/systemd/man/machinectl.html
+ * https://www.variantweb.net/blog/systemd-machinectl-vs-docker/
 ### docker visualiser
  * https://github.com/veggiemonk/awesome-docker https://github.com/dockersamples/docker-swarm-visualizer have good box
  * https://yipee.io/ Visual Modeling for Microservice Applications https://puppet.com/product/capabilities/orchestration

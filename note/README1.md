@@ -2929,6 +2929,52 @@ cornerstone 基石 支柱 柱石
 prometheus 先知
 epimetheus 后知
 atlas 支柱
+## 表现细节
+narrate 叙述 narration 讲述 解说
+ * https://posproject.org/character-strengths/
+### 勇敢 bravery dauntless
+ * http://examples.yourdictionary.com/examples-of-courage.html courage
+ * https://www.oddee.com/item_98945.aspx 9 Amazing Stories of Incredibly Brave People
+### 智慧 intelligence wisdom & knowledge
+* http://examples.yourdictionary.com/examples-of-courage.html courage
+* https://www.oddee.com/item_98945.aspx 9 Amazing Stories of Incredibly Brave People
+### 忠诚 fidelity loyalty
+### 诚实 honesty
+### 友善 Kindness
+### 创新 Innovation
+### 勤奋 Diligence Hardworking
+### 坚强 坚毅 perseverance dauntless勇敢无畏的 firm and indomitable
+### 好客 Hospitality  正能量 性格优势
+#### 勇气 courage 领导人 企业家 政治家 军人 警察 记者
+bravery 勇敢
+perseverance 坚韧不拔
+integrity 正直
+zest enthusiasm 热情 激情
+#### 人性 人道 humanity  社会工作者 服务者 护士 社会服务业
+love 爱
+kindness 友善
+social Intelligence 情商
+#### 超凡脱俗 圣人 超然 神性 佛性 transcendence  作家 宗教领袖 记者 媒体工作者
+Appreciation of beauty and excellence 对美和卓越的欣赏
+gratitude 感激 以德报怨
+hope/optimism 希望 乐观
+humor 幽默
+connection purpose 目标远大
+#### temperance  节制  为人处事 主妇 家庭管理 内务管理
+self-control 自控
+prudence  节俭
+humility/modesty  谦虚 谦逊
+forgiveness  包容 宽恕 原谅
+#### justice  正义 公正  法官 社会公民 企业公民
+leadership 领导力
+fairness 公平
+teamwork/citizenship 团队精神 公民精神 主人翁精神
+#### intelligence wisdom & knowledge 智慧 教师 研究者 程序员
+perspective 洞察力 全面 换角度思考
+love of learning 好学
+open-mindedness 心态开放 敞开胸怀 无偏见
+curiosity 好奇
+creativity  创造性 创造力
 ### spoil pants
 搞砸了
 

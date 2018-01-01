@@ -2232,6 +2232,10 @@ arpu Average Revenue Per User(每用户平均收入)
 ### golang javascript
  * https://mat.tm/joy/
  * https://github.com/matthewmueller/joy
+### go-bindata embed assests in go code
+ * https://github.com/elazarl/go-bindata-assetfs
+ * https://github.com/odino/go-bindata-example
+ * https://github.com/jteeuwen/go-bindata
 ### golang command line
  * https://blog.rapid7.com/2016/08/04/build-a-simple-cli-tool-with-golang/
  * https://github.com/spf13/cobra

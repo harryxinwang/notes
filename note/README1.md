@@ -2975,6 +2975,51 @@ love of learning 好学
 open-mindedness 心态开放 敞开胸怀 无偏见
 curiosity 好奇
 creativity  创造性 创造力
+### invention 发明
+#### triz
+ * https://www.bmgi.com/sites/bmgi.com/files/TRIZ%20and%20Software%20-%2040%20Principle%20Analogies,%20Part%201.pdf
+ * https://www.bmgi.com/sites/bmgi.com/files/TRIZ%20and%20Software%20-%2040%20Principle%20Analogies,%20Part%202.pdf
+软件发明方法
+Segmentation 切分
+Extraction 抽取，提取
+Local Quality 局部精细化
+Asymmetry 不对称，非对称
+Consolidation 协调，合并 同步合并
+Universality 通用接口
+Nesting 嵌套
+Counterweight 配重 模拟系统 测试系统
+Prior counteraction 预先补偿 提前补偿 降低最坏情况
+Prior action 预先计算 提前计算  提前优化
+Cushion in advance 提前缓冲 留余
+Equipotentiality 等位性 等势性 通用接口 接口与实现 设计模式
+Do it in reverse 发过来做 逆序操作
+Spheroidality 球体化 循环数组 循环链表
+Dynamicity  动态化 自适应
+Partial or excessive action 部分或超量操作，度量估计
+Transition into new dimension 转换到新维度 方法组解决 对象组解决
+Mechanical Vibration 机械振动 超参数自适应条件
+Periodic Action 周期性动作 周期性调度
+Continuity of useful action 持续有效动作 停车不熄火 剔除空进程和迟滞进程
+Rushing through 快速处理 一股脑 琐碎/错误/破坏
+Convert harm into benefit 化敌为友 化害为利
+Feedback 反馈
+Mediator 中介
+Self-service 自服务 自管理
+Copying 浅拷贝
+Dispose (Inexpensive short-lived objects) 丢弃型原型
+Replacement of Mechanical System 替换机械系统
+Pneumatic or hydraulic construction 气动或水动施工
+Flexible films or thin membranes 灵活薄膜层 封装对象或适配器对象
+Porous materials 透气材料
+Changing the color 改变颜色和透视率
+Homogeneity 一致性 数组操作 集合操作
+Rejecting and regenerating parts 剔除和恢复 丢弃或更改已经不用的部分 恢复有用的部分。
+Transformation properties 属性转换 多角色对象
+Phase transition 相位转换
+Thermal expansion 热膨胀
+Accelerated oxidation 加氧
+Inert Environment 惰性环境
+Composite materials 组合材料 组合设计模式
 ### spoil pants
 搞砸了
 

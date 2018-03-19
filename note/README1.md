@@ -1,4 +1,7 @@
 # artificial intelligence 人工智能
+## 人工智能伦理
+ * https://www.ted.com/talks/margaret_mitchell_how_we_can_build_ai_to_help_humans_not_hurt_us#t-583999
+ * https://www.ted.com/talks/stuart_russell_3_principles_for_creating_safer_ai https://www.youtube.com/watch?v=GYQrNfSmQ0M https://futureoflife.org/ai-principles/ https://futureoflife.org/ai-news/
 ## famous 问答网站l
  * https://news.ycombinator.com/
  * http://stackoverflow.com/
@@ -237,6 +240,9 @@
  * https://www.youtube.com/watch?v=7tsFxfZxR5o  Animation Generation From Natural Language- AUI
  * Animation Generation from Natural Language
 #### language model based on recurrent neural network
+#### AI diagrams
+ * http://www.asimovinstitute.org/neural-network-zoo/
+ * http://fastml.com/deep-learning-architecture-diagrams/
 #### AI Colaboratory
  * https://qz.com/1113999/nerds-rejoice-google-just-released-its-internal-tool-to-collaborate-on-ai/
 ##### chatbot
@@ -616,6 +622,9 @@ translation, scaling, homothety, similarity transformation, reflection, rotation
 ### Confronting the Partition Function 应对配分函数
 ### Approximate Inference 逼近推理
 ### Deep Generative Models 深度生成式模型
+####
+ * https://www.ted.com/talks/blaise_aguera_y_arcas_how_computers_are_learning_to_be_creative#t-1072885 guided perspective
+ * https://medium.com/artists-and-machine-intelligence
 ### history
  * http://www.andreykurenkov.com/writing/a-brief-history-of-neural-nets-and-deep-learning/
  * https://news.ycombinator.com/item?id=10910887
@@ -4241,6 +4250,16 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
  * http://www.matrix67.com/blog/archives/4812 http://blog.csdn.net/pongba/article/details/621723 图灵机杂思
  * Intuitionistic logic constructive logic  Intuitionistic logic is weaker than classical logic
 ####  formal logics 形式逻辑
+#### 推理 reasoning
+ * https://www.slideshare.net/JohnIssac/04-reasoning-systems
+ * https://www.slideshare.net/fvsandoval/artificial-intelligence-reasoning-in-uncertain-situations
+##### Symbol grounding problem
+ * Symbol grounding problem 符号落地问题
+ * Charles Saunders Peirce 皮尔斯
+##### Relational Reasoning
+ * https://steemkr.com/news/@mkt/deepmind-s-ai-learns-superhuman-relational-reasoning
+ * https://steemkr.com/news/@mkt/deepmind-s-ai-learns-superhuman-relational-reasoninhttps://arxiv.org/pdf/1706.01427.pdf
+ * https://arxiv.org/pdf/1706.01433.pdf
 ##### Classical logic (or standard logic 经典逻辑 传统逻辑 标准 逻辑
  * Law of excluded middle 排中律 and double negative elimination 双重否定即肯定
  * Law of noncontradiction不矛盾律, and the principle of explosion爆炸律
@@ -4261,8 +4280,62 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
 * Prolog semantics Prolog语义
 * Completion semantics 完成语义
 * Autoepistemic semantics 自知性语义
-closed-world assumption (CWA) 封闭世界假设 信息全或必须要有答案时open-world assumption 开放世界假设 信息不全时
+##### 不确定性推理
+ * https://www.slideshare.net/fvsandoval/artificial-intelligence-reasoning-in-uncertain-situations
+不确定性源头: 先验知识 行动 感觉 延迟 无知
+处理不确定性的手段：
+默认推理（乐观） 最坏情况推理（悲观）对手搜索 概率推理（现实）
+默认推理（乐观）
+认知缺省推理 modal operator 模态算子 处理信念belief而不是事实truth 非单调逻辑
+M modal operator 处理一致性
+撤销推理 retract inference
+时序回溯法 Chronological Backtracking Nonchronological Backtracking Dependency-directed Backtracking  依赖导向回溯
+TMS Truth Maintainance System 事实维护系统
+ http://conf.uni-obuda.hu/sisy2006/55_Udovicic.pdf
+closed-world assumption (CWA) 封闭世界假设 信息全或必须要有答案时
+predicate logic 谓词逻辑
+PROLOG 事实无法证明为对，假设为错
+人类 事实无法证明为错时，假设为对
+open-world assumption 开放世界假设 信息不全时
+乍得的模糊逻辑 模糊集合 T(!A)=1-T(A) Fuzzy Associative Matrix (FAM) 模糊联系矩阵
+  pendulum problem 钟摆问题 钟摆基础 模糊与或非，触发逻辑
+  应用场景 规则集小 没有链式推理 参数可调的情况
+
 Well-founded Semantics 良序模型语义 Thus the well-founded model of a logic program provides a lower bound on the intersection of its stable models and an upper bound on their union.
+https://www.slideshare.net/JohnIssac/04-reasoning-systems
+knowledge 热 presentation 知识表示和推理思考
+推理方法划分：形式推理 procedural reasoning 过程推理 类比推理 泛化和抽象 generalization and abstraction meta-level reasoning 元级别推理
+处理不确定性的手段：
+symbolic reasoning 符号推理 统计推理 模糊推理
+符号推理 默认推理 circumscription 界限推理 事实维护系统
+统计推理 概率推理 贝叶斯概率理论 贝叶斯推理
+贝叶斯推理应用场景 样本空间被分成独立事件 P(B)>0  目标是计算 P(Ak|B) 知道 P(AkB) 或者P(Ak)和P(B|Ak)
+贝叶斯网络 贝叶斯信念网络
+Dempster–Shafer theory DST DS证据理论
+approach 手段 method 方法 技术 technique 一个比一个更具体
+可微分神经计算机（Differentiable Neural Computer，DNC）
+http://news.hexun.com/2017-04-20/188912636.html 内部架构原理
+https://zhuanlan.zhihu.com/p/26483160
+https://www.youtube.com/watch?v=r5XKzjTFCZQ DNC
+composition
+https://thijs.ai/papers/scheepers-msc-thesis-2017-improving-compositionality-word-embeddings.pdf
+learning-to-learn 学习会学习
+transfer learning 迁移学习
+多任务学习(Multi-task learning) https://www.zhihu.com/question/41979241
+http://mp.weixin.qq.com/s?__biz=MzIxNDgzNDg3NQ==&mid=2247483961&idx=1&sn=cf3fe6aafd40e87fac1c2689497fec96&chksm=97a0c9eda0d740fb5c673e010912582394597458b4d0f98c1832e5188bdedcce4abcdd20f19f&scene=21#wechat_redirect 共享表示shared representation 基于参数的共享（Parameter based） 基于约束的共享（regularization based）
+One-shot learning 指的是我们在训练样本很少，甚至只有一个的情况下，依旧能做预测。如何做到呢？可以在一个大数据集上学到general knowledge（具体的说，也可以是X->Y的映射），然后再到小数据上有技巧的update。相关的名词还有  transfer learning , domain adaption。
+https://www.zhihu.com/question/50996014/answer/157230966
+
+翻译成表示学习应该可以把。大神论文中对representation learning 的介绍是: to learn representations of data that make it easier to extract useful information when building classifiers or other predictors.理解为特征表达应该也没有错误。 表征学习Representation Learning？
+https://www.zhihu.com/question/37162929/answer/173121270
+Zero/One-shot learning 一次学习 零次学习
+领域适应性（Domain Adaptation）学习
+
+#### 关系推理
+ * https://www.technologyreview.com/s/608108/forget-alphago-deepminds-has-a-more-interesting-step-towards-general-ai/
+ *
+#### 组合推理
+ * challenges for AI Building Machines That Learn and Think Like People https://arxiv.org/pdf/1604.00289.pdf
 #### semantic web
  * https://en.wikipedia.org/wiki/Knowledge_Graph
  * https://github.com/schemaorg/schemaorg/tree/master/docs
@@ -4352,8 +4425,74 @@ Adding a name to the triple makes a "quad store" or named graph
  * 甘菊、接骨木、甘草、紫锥花、橄榄根、百里香和牛至 甘菊 甘草、紫锥花、百里香 牛至
 ## 未解之谜
  * http://nautil.us/blog/7-major-experiments-that-still-havent-found-what-theyre-looking-for
+通名还是专名，区别在于说话者的意图，是指向单个对象还是指向一类事务的多个对象。也就是说在说话者上下文的前提下，判断它是指一个单个对象还是一类事务。一般情况下，如果没有具体的“说话者”，那就以大多数人的约定上下文为准。楼主说的“泰坦尼克号”肯定是专名。而楼主的3个“泰坦尼克号”，实际是“泰坦尼克号刚出厂的状态”、“泰坦尼克号1912年4月3日的状态”和“泰坦尼克号1912年4月3日断成两截的状态”。也就是说这里的主语是“状态”，而不是“泰坦尼克号”，显然，“状态”一词是指向一类事务，可以指代多个对象，是个通名。
 
 ## philosophy 哲学
+### speech act types 发言动作
+locutionary 言内行为
+illocutionary 言外行为
+assertives = speech acts that commit a speaker to the truth of the expressed proposition 确认
+directives = speech acts that are to cause the hearer to take a particular action, e.g. requests, commands and advice 指导
+commissives = speech acts that commit a speaker to some future action, e.g. promises and oaths 承诺
+expressives = speech acts that express on the speaker's attitudes and emotions towards the proposition, e.g. congratulations, excuses and thanks 表达
+declarations = speech acts that change the reality in accord with the proposition of the declaration, e.g. baptisms, pronouncing someone guilty or pronouncing someone husband and wife 声明
+perlocutionary 言后行为
+law of excluded middle (or the principle of excluded middle) states that for any proposition, either that proposition is true or its negation is true. It is the third of the three classic laws of thought.
+. Law of identity: "Whatever is, is." 同一律
+2. Law of noncontradiction: "Nothing can both be and not be." 矛盾律
+3. Law of excluded middle: "Everything must either be or not be."
+间接指称理论Mediated reference theory The object denoted by a word is called its referent Direct reference theory 语言的意义在于它的指向。Gottlob Frege and Bertrand Russell
+直接指称理论 Direct reference theory
+维特斯坦根，语言的意义在于它的使用。
+Frege's puzzles 弗雷格的迷思 自我指称和条件指称变化问题，引入 sense和reference
+ * https://plato.stanford.edu/entries/meaning/#TwoKinTheMea
+### 命名和必然性 Naming and Necessity
+ * https://en.wikipedia.org/wiki/Naming_and_Necessity
+ * https://en.wikipedia.org/wiki/David_Kaplan_(philosopher)
+ modal claims  模态陈述 Modal logic 模态逻辑
+utterance 表达 说法 发言  Demonstrative 指示词 this that
+indexical 索引 index indexicality 索引性 is one of the three fundamental sign modalities 符号模式, the others being iconicity 形象性（符号和意义的相似性，Semiotics符号学） and symbolism 象征性
+形象性原则：数量原则、接近原则、排序原则
+ singular term
+ metaphysics 形而上学  cosmology 宇宙学 and ontology 本体论，实体论. epistemic 认知学
+ syllogism 三段论，演绎推理
+###
+约翰·穆勒 John Stuart Mill 密尔 论自由 边沁的功利主义
+ * https://philpapers.org/archive/BOUWDP http://www.preposterousuniverse.com/blog/2013/04/29/what-do-philosophers-believe/
+#### 调查结果
+Science: scientiﬁc realism 75.1%; scientiﬁc anti-realism 11.6%; other 13.3%. 科学实在主义
+ External world: non-skeptical realism 81.6%; skepticism 4.8%; idealism 4.3%; other 9.2%. 外部世界
+  God: atheism 72.8%; theism 14.6%; other 12.6%. 上地  无神论; 有神论
+ * A priori knowledge: yes 71.1% 先验知识
+ Trolley problem: switch 68.2%; don’t switch 7.6%; other 24.2%. 电车悖论
+ Moral judgment: cognitivism 65.7%; non-cognitivism 17.0%; other 17.3%. 认知性道德判断
+ * Analytic-synthetic distinction  yes 64.9%; no 27.1%; other 8.1%. 解析的; 分解的; 善于分析的; analytic proposition 分析命题 synthetic proposition 综合命题
+ Free will: compatibilism 59.1%; libertarianism 13.7%; no free will 12.2%; other 14.9%. 自由意志
+ Laws of nature: non-Humean 57.1%; Humean 24.7%; other 18.2%. 自然法则
+Mind: physicalism 56.5%; non-physicalism 27.1%; other 16.4%. 身体性心灵
+ Meta-ethics: moral realism 56.4%; moral anti-realism 27.7%; other 15.9%. 道德现实主义
+ Logic: classical 51.6%; non-classical 15.4%; other 33.1%. 经典逻辑
+ Mental content: externalism 51.1%; internalism 20.0%; other 28.9%. 外部理论
+ Truth: correspondence 50.8%; deﬂationary 24.8%; epistemic 6.9%; other 17.5%. 真理符应论 真理紧缩理论
+ Metaphilosophy: naturalism 49.8%; non-naturalism 25.9%; other 24.3%. 自然法则
+ Epistemic justiﬁcation: externalism 42.7%; internalism 26.4%; other 30.8%. 认识正义 外部性
+ Aesthetic value: objective 41.0%; subjective 34.5%; other 24.5%. 审美价值
+ Knowledge claims: contextualism 40.1%; invariantism 31.1%; relativism 2.9%; other 25.9%. 知识主张 上下文
+Abstract objects: Platonism 39.3%; nominalism 37.7%; other 23.0%.
+ Teletransporter: survival 36.2%; death 31.1%; other 32.7%. 远程传输
+ Knowledge: empiricism 35.0%; rationalism 27.8%; other 37.2%. 知识，经验主义
+ Moral motivation: internalism 34.9%; externalism 29.8%; other 35.3%. 内在道德动机
+ Politics: egalitarianism 34.8%; communitarianism 14.3%; libertarianism 9.9%; other 41.0%. 平等主义 社群主义 主要代表有桑德尔、麦金太尔和沃尔策等 自由主义
+Proper names: Millian 34.5%; Fregean 28.7%; other 36.8%. 专有名称 密尔 弗雷格 https://en.wikipedia.org/wiki/Proper_name_(philosophy) Direct reference theories https://en.wikipedia.org/wiki/David_Kaplan_(philosopher) https://plato.stanford.edu/entries/reference/ extension signifies both 'stretching out' (Latin: extensio) as well as later 'taking up space' 外延 infinite divisibility refers to the idea that extension, or quantity,外延是无限可分的
+ Personal identity: psychological view 33.6%; biological view 16.9%; further-fact view 12.2%; other 37.3%. 个人身份 心理的
+Perceptual experience: representationalism 31.5%; qualia theory 12.2%; disjunctivism 11.0%;
+ sense-datum theory 3.1%; other 42.2%.  具象主义 认知体验
+ Newcomb’s problem: two boxes 31.4%; one box 21.3%; other 47.4%.  纽科姆的悖论 长期回报和短期回报
+ Time: A- or B-theory? B-theory 26.3 A-theory 15.5
+
+https://link.springer.com/article/10.1007/s11098-013-0259-7
+
+ * https://www.zhihu.com/question/23514600
 ### 人和动物
  * https://www.theatlantic.com/science/archive/2017/02/what-do-animals-see-in-the-mirror/516348/?single_page=true  Chimps 非洲） 黑猩猩 and 猩猩 orang-utans Monkeys gorillas doesnot  Self-recognition 自身识别 Self-awareness  自知 自我认知
 # statistics 统计学

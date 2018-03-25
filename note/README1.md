@@ -243,8 +243,94 @@
 #### AI diagrams
  * http://www.asimovinstitute.org/neural-network-zoo/
  * http://fastml.com/deep-learning-architecture-diagrams/
+#### AI product management
+ * https://medium.com/@jonhurlock/building-machine-learning-based-products-part-i-an-introduction-to-ml-products-406235e53be3
+ * https://medium.com/@yaelg/product-manager-pm-step-by-step-tutorial-building-machine-learning-products-ffa7817aa8ab
+ * https://towardsdatascience.com/machine-learning-for-product-managers-part-i-problem-mapping-5436132c3a6e
+  * What Machine Learning Can Do for Your Business and How to Figure It Out
+##### 潜在业务影响：
+需求定制化
+自动识别职能裁减服务
+自动搜索、生成和处理内容
+预测和估计趋势规模
+检测异常活动和系统故障
+业务产出：
+提高客户体验
+优化内部流程和业务逻辑，提高效率，节省成本
+扩展新业务新产品，找到长尾客户
+定义业务战略和业务目标是产品经理和业务领导的责任。产品经理跟数据科学家共同工作。
+如何应用：
+内部流程：如何应用知识解决问题，如何收集数据并抽取信息，如何决策
+现有客户的产品和体验：人力定制化的自动化，客户类型的划分，定制客户体验，帮助客户决策，分辨客户体验的好坏。
+新业务：数据对其他干系人的作用，以及如何帮助他们决策
+整体：指标和趋势预测：预测市场需求和成本，自有数据与外部数据结合的力量。
+##### 实践开始验证。
+算法模型和数据：
+训练集(training set)、验证集(validation set)和测试集(testing set)
+学习的类型：有监督学习，无监督学习，半监督学习，增强学习
+有监督学习： 回归，分类
+无监督学习：聚类，联系、关联Association，异常检测
+Deep learning An Artificial Neural Network (ANN)  
+Ensemble methods or ensemble learning 集成学习 集成方法
+Natural language processing (NLP) Keyword generation 关键词生成 Language disambiguation 语言去歧 https://figshare.com/articles/Natural_Language_Ambiguity_and_its_Effect_on_Machine_Learning/1579986 Sentiment analysis 情感分析
+Named entity extraction 名称抽取
+问题如何影响解决方案
+Algorithm Selection 算法选择 Feature Selection 特征选取区
+Objective Function Selection 目标函数选取： 业务目标和所有的数据
+Explainability and Interpretability 解释和解读
+Overfitting 过拟合
+Precision 准确率 Recall 召回率
+不均衡的数据集被平均指标所掩盖
+ Ideation  构思 目标和数据
+ Data preparation 数据准备
+Prototyping and testing 原型和测试
+Productization 产品化
+Ideation  构思：关于问题取齐，选择目标函数，定义质量指标，头脑风暴可能的数据输入
+Data preparation 数据准备：
+先找到最快的方法（标准答案ground truth）
+Data cleanup and normalization：数据清洗和标准化，特别是对文本和图片
+实践开始验证。
+Prototyping and testing 原型和测试: 构建原型，Validate and test prototype 验证和测试原型，Iterate 迭代
+Productization 产品化： 增加数据覆盖面，扩展数据收集，刷新数据（支持存储大量增长数据），扩展模型，检查极端情况Check for outliers 父母和孩子
+外包： Mechanical Turk CrowdFlower https://www.upwork.com/
+##### 团队结构
+Ideation  构思：业务领导，产品经理，数据科学家
+Data preparation 数据准备：数据科学家和工程师
+Prototyping and testing: 数据科学家为主，产品和业务经理验证
+Productization 产品化：数据科学家和工程师
+总体系统架构：工程师
+Data scientists 分类 more or less independent 行业要求
+报告结构：
+报告给工程师：有利于整体架构
+报告给产品：要求产品经理了解底层基础设施
+联合报告给总体，沟通需要最多的地方联合报告
+##### 机器学习和用户体验
+Marc Andreessen’s framework：团队、产品、市场
+建立可解释的模型：构建多个模型，构建联合模型但是可以抽取不同需要的特征 在构建原型前需要充分讨论
+向用户展示结果：
+Backdating 回填
+解释方法和输入数据
+暴露底层数据 exposing some of the underlying data
+简化选择，只给客户他可能最关心的因素。最便宜的和卖得最好的。
+精确有时不那么重要Precision doesn’t always matter：taking them more literally导致更加重视字面意思。通过数值范围，deciles 十分位数，grades 等级
+解释越来越重要：Local Interpretable Model-Agnostic Explanations https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime, Layer-Wise Relevance Propagation (LRP) 
+##### Engineering Considerations That Product Managers Should Watch out 工程化考虑
+Real time requirements 实时性需求
+Data and model dependencies 数据和模型依赖
+数据收集频率
+数据收集方法
+
+
+ * https://hackernoon.com/machine-learning-and-product-managers-930b691b1b37
+ * https://www.kennorton.com/newsletter/2016-07-27-bringing-the-donuts.html
+##### AI 须知
+
 #### AI Colaboratory
  * https://qz.com/1113999/nerds-rejoice-google-just-released-its-internal-tool-to-collaborate-on-ai/
+##### face detection
+ * https://arxiv.org/abs/1503.03832 Triplet
+ * http://ydwen.github.io/papers/WenECCV16.pdf center loss
+ * https://www.zhihu.com/question/60759296/answer/180176680 基于深度卷积神经网络进行人脸识别的原理是什么？
 ##### chatbot
  * https://github.com/minimalchat/client Client library for Minimal Chat
  * https://github.com/wireapp/bot-sdk-node

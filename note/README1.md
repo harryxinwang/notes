@@ -62,6 +62,12 @@
 ### IOT 物联网
  * https://www.iottechnews.com/
  * http://mattturck.com/2016-iot-landscape/
+#### product manager
+ * https://www.mindtheproduct.com/2017/02/five-essential-steps-for-getting-into-iot-product-management/
+ * https://medium.com/@steffenbuenau/review-the-iot-product-manager-course-by-daniel-elizalde-part-1-65e4ac57c3db
+ * https://danielelizalde.com/get-into-iot-pm/
+ * https://www.i-scoop.eu/internet-of-things-guide/internet-things-retail-industry/
+ * https://softwarestrategiesblog.com/2018/01/01/roundup-of-internet-of-things-forecasts-and-market-estimates-2018/
 #### AI 地图
  * https://cbi-blog.s3.amazonaws.com/blog/wp-content/uploads/2017/01/AI_100_market_map_2017-NEW.png
  * https://hbr.org/resources/pdfs/hbr-articles/2016/11/the_state_of_machine_intelligence.pdf
@@ -140,7 +146,7 @@
  * http://xyz.insightdatascience.com/Insight_AI_White_Paper.pdf
  * https://en.wikipedia.org/wiki/Applications_of_artificial_intelligence
  * https://www.forbes.com/sites/bernardmarr/2016/09/30/what-are-the-top-10-use-cases-for-machine-learning-and-ai/#1e786f6e94c9
-#### meta AI AI to build AI
+#### meta AI to build AI
  * https://www.nytimes.com/2017/11/05/technology/machine-learning-artificial-intelligence-ai.html?rref=collection%2Fsectioncollection%2Ftechnology&action=click&contentCollection=technology&region=rank&module=package&version=highlights&contentPlacement=2&pgtype=sectionfront
 #### AI progress metrics
  * https://www.eff.org/files/AI-progress-metrics.html https://jupyter.org/#about-notebook
@@ -319,8 +325,6 @@ Real time requirements 实时性需求
 Data and model dependencies 数据和模型依赖
 数据收集频率
 数据收集方法
-
-
  * https://hackernoon.com/machine-learning-and-product-managers-930b691b1b37
  * https://www.kennorton.com/newsletter/2016-07-27-bringing-the-donuts.html
 ##### AI 须知
@@ -518,6 +522,7 @@ CART(Classification and Regression Tree)
 ```
 #### RBM 限制波尔兹曼机（RBM）能量模型
 Boltzmann常数 Gibbs分 系统和它周围的环境处于热平衡时，一个基本的结果是状态i发生的概率
+受限玻尔兹曼机RBM（四）对比散度contrastive divergence，CD
 ##### 无监督学习
  * http://blog.csdn.net/landiaoxinqing/article/details/45482911
 ```
@@ -732,6 +737,7 @@ translation, scaling, homothety, similarity transformation, reflection, rotation
  * https://github.com/pannous/tensorflow-ocr
 ### machine learning courses
  * https://news.ycombinator.com/item?id=15689399 Best way to get started with AI?
+ * https://github.com/nfmcclure/tensorflow_cookbook
  * https://ml.berkeley.edu/blog/2016/11/06/tutorial-1/
  * http://yerevann.com/a-guide-to-deep-learning/
  * https://github.com/ZuzooVn/machine-learning-for-software-engineers
@@ -919,6 +925,8 @@ They named “A robot puts away the dishes from a dishwasher without breaking th
  * http://eigen.tuxfamily.org/index.php?title=Main_Page
  * https://www.servethehome.com/google-tensorflow-asic-impact/  https://www.servethehome.com/google-tensorflow-asic-impact/
 #### tensorflow
+ * https://www.katacoda.com/basiafusinska/scenarios/tensorflow-layers
+ * https://github.com/nfmcclure/tensorflow_cookbook/tree/master/01_Introduction
  * https://github.com/tensorflow/playground
  * http://abhitopia.com/machine%20learning/2016/05/24/tensor_flow_exploration_2.html  code structur
 ##### tensor maths
@@ -1504,6 +1512,7 @@ eth.accounts
  https://medlineplus.gov/clinicaltrials.html
  http://www.yuaigongwu.com/thread-17035-3-1.html CAR-T治疗内幕
 ### Realtime big data use case 实时大数据案例
+ * https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research
 #### 电商
  * https://blog.ometria.com/is-realtime-ecommerce-analytics-data-useful
  * https://www.segmentify.com/blog/real-time-analytics-best-practice-use-cases/
@@ -1588,6 +1597,8 @@ electricity grid 电力系统实时监控
 交通系统实时监控
 ```
 #### 技术关键
+Product of experts 专家组合 逻辑与 mixture model 混合模型 逻辑或
+受限玻尔兹曼机RBM（四）对比散度contrastive divergence，CD https://en.wikipedia.org/wiki/Product_of_experts
 Data Streams 流式数据
 Scaling 扩张
 Fault Tolerance 容错
@@ -4197,6 +4208,10 @@ ip link set dev mymacvlan2 up
 ## 思考
  * http://www.newyorker.com/tech/elements/walking-helps-us-think
  * https://blogs.scientificamerican.com/guest-blog/programming-as-a-way-of-thinking/
+## 自我认知
+ * http://blog.hiddenwangcc.com/archives/1987 不要打破你的镜子
+ * https://club.1688.com/article/34884737.html 约.哈利窗
+ *
 ## 20 hours 20小时定律
  * http://www.jianshu.com/p/8e8c250ae5b0
 ## Getting Things Done

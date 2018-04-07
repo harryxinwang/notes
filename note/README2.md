@@ -2141,9 +2141,17 @@ arpu Average Revenue Per User(每用户平均收入)
  * https://github.com/yeoman/generator-angular
  * https://github.com/teerapap/generator-go-angular not active
  * http://stackoverflow.com/questions/29649578/available-yeoman-generator-for-angular-2
+
 ### redux
  * http://redux.js.org/docs/introduction/Examples.html
  * https://github.com/angular-redux/store
+### vue
+#### server rendering
+ * https://medium.freecodecamp.org/heres-why-client-side-rendering-won-46a349fadb52
+ * https://github.com/camsong/blog/issues/8 精读前后端渲染之争
+ * http://www.infoq.com/cn/news/2017/05/server-render-client-side
+ * https://zh.nuxtjs.org/
+ * http://www.alloyteam.com/2017/01/react-from-scratch-server-render/
 #### Web GUI recorder
  * https://github.com/tebelorg/TA.Gui
 ## OCaml

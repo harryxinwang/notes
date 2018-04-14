@@ -139,6 +139,23 @@
  * https://www.energy.gov/sites/prod/files/2017/06/f34/5c.%20Herr%20-%20Intellimation.pdf IoT big data
 #### IoT startups
  * https://www.siliconrepublic.com/machines/iot-startups-2017-europe-startup-100
+### time serias forecasting 
+ * http://www.ulb.ac.be/di/map/gbonte/ftp/time_ser.pdf Machine Learning Strategies for Time Series Prediction
+ * https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/ A comprehensive beginner’s guide
+ * https://www.quora.com/How-does-one-apply-deep-learning-to-time-series-forecasting Generating Sequences With Recurrent Neural Networks Forecasting Commodity Contract Spreads with Gaussian Process
+ * http://www.infoq.com/cn/articles/a-study-on-sales-forecasting-based-on-machine-learning 基于机器学习方法对销售预测的研究
+ * https://machinelearningmastery.com/time-series-forecasting-supervised-learning/ 滑动窗口
+ * https://mapr.com/blog/deep-learning-tensorflow/ TensorFlow
+ * https://machinelearningmastery.com/get-good-results-fast-deep-learning-time-series-forecasting/ Model Framing Complexity
+ * https://blog.statsbot.co/time-series-prediction-using-recurrent-neural-networks-lstms-807fa6ca7f LSTM
+ * file:///Users/xwang/Downloads/Dissertacao.pdf Predicting product sales in fashion retailing: a data analytics approach
+ * https://myslide.cn/slides/744 设计开发智能分析产品
+ * https://machinelearningmastery.com/challenging-machine-learning-time-series-forecasting-problems/ Challenging Machine Learning Time Series Forecasting Problems
+ * https://www.formulate.cloud/formulate-hq-blog/2017/12/18/ver-2-three-myths-about-sales-forecasting-and-machine-learning myths about sales forecasting and machine learning
+ * https://www.tandfonline.com/doi/pdf/10.1080/21642583.2014.999389 survey
+ * http://cs229.stanford.edu/proj2015/198_report.pdf Multifaceted Predictive Algorithms in Commodity Markets
+ * http://www.diva-portal.org/smash/get/diva2:1118354/FULLTEXT01.pdf Curated content
+ * https://videohub.oracle.com/media/Analytics+and+Machine+Learning+in+RetailA+Demand+Forecasting+and+Price+Optimization+/1_xttudjq8/73329341 Analytics and Machine Learning in Retail: Demand Forecasting and Price Optimization
 ### AI career sites
  * https://blog.insightdatascience.com/how-emerging-ai-roles-fit-in-the-data-landscape-d4cd922c389b
  * https://blog.insightdatascience.com/data-science-vs-data-engineering-62da7678adaa

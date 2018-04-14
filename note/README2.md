@@ -2146,6 +2146,9 @@ arpu Average Revenue Per User(每用户平均收入)
  * http://redux.js.org/docs/introduction/Examples.html
  * https://github.com/angular-redux/store
 ### vue
+#### vue tutorial
+ * https://medium.com/tutorialsxl/vue-js-with-visual-studio-code-getting-started-3ef9829eb13e
+ * 
 #### server rendering
  * https://medium.freecodecamp.org/heres-why-client-side-rendering-won-46a349fadb52
  * https://github.com/camsong/blog/issues/8 精读前后端渲染之争

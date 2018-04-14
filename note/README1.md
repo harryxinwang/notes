@@ -4222,6 +4222,38 @@ ip link set dev mymacvlan2 up
  * https://www.zhihu.com/question/46284778/answer/143600686 律师一般会使用哪些APP
  * https://www.zhihu.com/question/41321086/answer/111460443 现在都有哪些互联网法律服务平台？这些平台都怎么样？
 # 心理学  psycology
+## 阅读
+### 快速阅读
+ * https://www.jianshu.com/p/671f37eb740b
+目的
+工具：手机或电脑
+封面封底 目录 序言
+确定要不要读
+扫读 标题（意图逻辑） 粗体字（意图逻辑） 图片表格（未来引用）
+陌生词（搞懂概念） 开头结尾（记住结论） -自己需要的-自己喜欢的-陌生新知识
+跳读搞懂
+9小时复习，输出
+
+### 主题阅读
+确定主题和书单
+预习和扫读。
+建立框架
+重读，找出框架所对应的答案和知识点。
+筛选并整合。
+输出与分享。
+### 科技论文快速阅读
+标题 摘要 结论 年份 确定要不要读
+结构 前言 图表 讨论 
+
+### 科技论文主题阅读
+http://www.360doc.com/content/15/1214/15/8839208_520339109.shtml
+确定主题
+搜索文章，找出共同引文 找出主题大牛
+查看大牛主页
+看大牛当前研究方向
+筛论文
+科技论文快速阅读
+
 ## 思考
  * http://www.newyorker.com/tech/elements/walking-helps-us-think
  * https://blogs.scientificamerican.com/guest-blog/programming-as-a-way-of-thinking/

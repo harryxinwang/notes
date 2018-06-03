@@ -140,6 +140,8 @@
 #### IoT startups
  * https://www.siliconrepublic.com/machines/iot-startups-2017-europe-startup-100
 ### time serias forecasting 
+ * https://www.tandfonline.com/doi/pdf/10.1080/21642583.2014.999389 A survey on retail sales forecasting and prediction
+in fashion markets
  * http://www.ulb.ac.be/di/map/gbonte/ftp/time_ser.pdf Machine Learning Strategies for Time Series Prediction
  * https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/ A comprehensive beginner’s guide
  * https://www.quora.com/How-does-one-apply-deep-learning-to-time-series-forecasting Generating Sequences With Recurrent Neural Networks Forecasting Commodity Contract Spreads with Gaussian Process
@@ -156,6 +158,23 @@
  * http://cs229.stanford.edu/proj2015/198_report.pdf Multifaceted Predictive Algorithms in Commodity Markets
  * http://www.diva-portal.org/smash/get/diva2:1118354/FULLTEXT01.pdf Curated content
  * https://videohub.oracle.com/media/Analytics+and+Machine+Learning+in+RetailA+Demand+Forecasting+and+Price+Optimization+/1_xttudjq8/73329341 Analytics and Machine Learning in Retail: Demand Forecasting and Price Optimization
+ * https://fxdiebold.blogspot.be/2017/03/machine-learning-and-econometrics-vi.html smooth non-linear trends, seasonal shifts 
+ * https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/ A comprehensive beginner’s guide to create a Time Series Forecast
+ Eliminating Trend 祛除趋势
+ Aggregation 聚合 Smoothing 平滑 Polynomial Fitting 
+ Differencing 差值 x(t) – x(t-1) = ARMA (p ,  q)
+ ARIMA stands for Auto-Regressive Integrated Moving Averages
+ AR(I)MA. p d q
+ * https://www.analyticsvidhya.com/blog/2015/12/complete-tutorial-time-series-modeling/ A Complete Tutorial on Time Series Modeling in R
+ Framework
+ Visualize the Time Series
+ Stationarize the Series Dickey – Fuller
+ Find Optimal Parameters ACF and PACF
+Build ARIMA Model ARIMA模型全称为自回归积分滑动平均模型
+
+ * https://github.com/tgjeon/TensorFlow-Tutorials-for-Time-Series
+#### stationary process 
+平稳随机过程 均值函数是常数函数且②协方差函数仅与时间差相关，我们才称其为弱平稳
 ### AI career sites
  * https://blog.insightdatascience.com/how-emerging-ai-roles-fit-in-the-data-landscape-d4cd922c389b
  * https://blog.insightdatascience.com/data-science-vs-data-engineering-62da7678adaa
@@ -266,6 +285,46 @@
 #### AI diagrams
  * http://www.asimovinstitute.org/neural-network-zoo/
  * http://fastml.com/deep-learning-architecture-diagrams/
+#### 可解释的机器学习模型
+##### 传统
+##### LIME：一种解释机器学习模型的方法
+ * https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime
+ * https://medium.com/@kstseng/lime-local-interpretable-model-agnostic-explanation-%E6%8A%80%E8%A1%93%E4%BB%8B%E7%B4%B9-a67b6c34c3f8
+ * http://geek.csdn.net/news/detail/66259
+ * https://arxiv.org/pdf/1602.04938.pdf
+要点
+ * SUBMODULAR PICK FOR EXPLAINING MODELS 选择哪些点代表
+##### understanding black-box predictions via influence functions
+ * https://pdfs.semanticscholar.org/2a4b/60a3d58e15f7f075b6c142dd5496b00e9736.pdf
+ * https://channel9.msdn.com/Shows/Microsoft-Research/Understanding-Black-box-Predictions-via-Influence-Functions
+##### causal model 
+Bernhard Schölkopf
+ * https://academic.oup.com/nsr/article/5/1/26/4638533 Learning causality and causality-related learning: some recent progress
+ Causal discovery 
+ * http://is.tuebingen.mpg.de/person/bs
+ * https://icml.cc/2012/papers/625.pdf 因果模型和反因果模型 糊涂模型 半监督学习在反因果模型效果更好 P(Y|X)依赖P(X) 需要P(X)
+ http://ml.dcs.shef.ac.uk/masamb/schoelkopf.pdf
+ 80 Cause-Effect Pairs − Examples 包含案例
+We give an overview of the implication of prediction
+in causal and anticausal directions, in particular
+formulating the hypothesis that under an independence assumption
+for causal mechanism and input, semi-supervised
+learning works better in anticausal or confounded problems
+than in causal problems.
+##### Attention
+ * https://towardsdatascience.com/interpretability-in-machine-learning-70c30694a05f
+Attention-based methods are typically used with sequential data 
+##### 应用
+ * Debugging model errors
+ * fixing training data
+ * adversarial training examples
+推荐适合
+风控不要外报
+##### 评价
+ * 基于功能：稀疏性 合理性
+ * 基于识别重要因素：改变哪些因素 区分性特征是哪些
+ * 基于应用：对结果有多少改进 解释对研究者是否有用
+
 #### AI product management
  * https://medium.com/@jonhurlock/building-machine-learning-based-products-part-i-an-introduction-to-ml-products-406235e53be3
  * https://medium.com/@yaelg/product-manager-pm-step-by-step-tutorial-building-machine-learning-products-ffa7817aa8ab
@@ -432,6 +491,86 @@ RNN出现之后，使用RNN来对时序关系进行描述来取代HMM
  * http://www.cyzone.cn/event/list-764-0-1/
  * https://www.crunchbase.com/organization/
  * https://index.co/company/
+### AI learning
+Siraj Raval
+learn concept quickly
+https://www.youtube.com/watch?v=nxWfZP6eslM
+1. find a real reason
+2. Start up with simplest concept 
+3. Create a set of small goals Set deadlines
+4. Maitain a flow state
+5. 2/3 doing
+6. Take notes
+7. be uncomfortable
+8. focus
+9. seek out feedback
+10. maintain health
+
+https://www.youtube.com/watch?v=9bbS-trc8ys create AI business
+
+https://www.zhihu.com/question/37525873
+meaningful
+1. allow yourself to be confused
+2. reflect yourself
+3. practice self-love
+4. rapid experimentation
+5. create goal plan
+6. forget everything but that goal
+7. practice self-descpline
+8. being open to feedback
+
+### 比较行业
+13 smartest AI company
+13 IBM, 12 Line 11 bosch 10 importable 9 fonuc 8 microsoft 7 didi 6 facebook 5 enlitic 4 nividia 3 alphabet 2 tesla 1 baidu
+#### 数据标注
+ * https://www.douban.com/group/topic/112885793/ 承接机器学习、深度学习的服务咨询
+ * http://www.alilabel.com/
+ * https://www.pencilnews.cn/p/16797.html
+ * http://www.ctoutiao.com/248144.html 北京深度搜索科技有限公司 
+ * https://www.zhihu.com/question/56003388 
+ * https://www.zhihu.com/question/49433475?from=profile_question_card 国外的人工智能领域，数据标注是怎么做的？
+#### 智慧物流
+ * http://www.heptax.com/heptax/index.html 
+ * http://www.ktu56.com/ http://www.cyzone.cn/a/20170803/313801.html
+ * http://www.cyzone.cn/d/20160725/2560.html
+概念
+Ruin and Recreate R & R 算法  http://www.doc88.com/p-6621592115936.html 
+quadratic assignment problem (QAP) 二次分配问题 combinatorial optimization problems 之一，旅行商问题和很多组合优化问题可以作为QAP的特殊情况。
+混合整数规划（Mixed Integer Programming） 目前解决ILP的方法有branch and bound, cutting-plane method等 https://zhuanlan.zhihu.com/p/28387290?group_id=893712252413284352 整数规划经典方法--割平面法
+http://www.wanfangdata.com.cn/details/detail.do?_type=perio&id=jsjyy201708047  基于密度聚类构建物流配送问题的毁灭移除算法 Vehicle Routing Problem
+https://lirias.kuleuven.be/bitstream/123456789/556398/1/asb_rr_2016.pdf  
+https://en.wikipedia.org/wiki/Combinatorial_optimization
+metaheuristic 元启发式方法。一些随机搜索算法诸如进化算法、蚁群算法、粒子群算法这类具有启发式框架的智能算法称为元启发式算法。problem independent
+应用场景
+http://apfoodonline.com/industry/the-intelligent-logistics-solution-of-the-future/
+https://2020vet.com/services/supply-chain-management-logistics/
+https://medium.com/@KodiakRating/trends-for-your-supply-chain-in-2018-9454ce37a21a
+主要方法
+单量预测的难点：新入仓商家，推单商家发话，库存不均，爆品下沉
+网络规划的难点：成本、服务的平衡，竞品对标，优化问题的规模，仓、分拨、配送的全局优化
+实时数据特点：链路长、节点多、多流Join、变Key、多维度组合分析
+同行
+http://intelligentlogisticsltd.co.uk/about-us/
+#### 智能芯片
+ * http://www.cambricon.com/ 寒武纪
+ * http://www.deephi.com/ 深鉴科技
+#### 安防
+https://www.zhihu.com/question/27072526 格灵深瞳
+http://www.yitutech.com/corebusiness/2.html 依图科技 安防 医疗 刷脸 
+#### 人脸
+https://www.zhihu.com/question/58609598/answer/256006335
+http://www.sohu.com/a/118916272_130682
+https://www.iyiou.com/p/54764
+商汤、云从、依图、旷视和格灵深瞳五家公司
+#### 医疗
+https://www.icarbonx.com/ 碳云
+https://rxthinking.com/ 大数医达 http://www.sohu.com/a/197161276_473283
+http://www.kangfuzi.com/ 康夫子
+#### 客服系统
+环信、Udesk、美洽、智齿客服
+#### 移动大数据
+trustdata
+ * https://www.zhihu.com/question/37525873
 ## alphago
  * https://en.wikipedia.org/wiki/AlphaGo
  * http://www.dcine.com/2016/01/28/alphago/  
@@ -683,7 +822,7 @@ Parameter Tying and Parameter Sharing
 Bagging(short for bootstrap aggregating)
 model averaging. Techniques employing this strategy are known
 as ensemble methods.
-boosting
+boosting adaboosting gbdt xgboost
 adversarial example
 learning rates
 η
@@ -752,7 +891,58 @@ translation, scaling, homothety, similarity transformation, reflection, rotation
  * https://github.com/wanghaisheng/awesome-ocr'
  * https://github.com/hs105/Deep-Learning-for-OCR
  * https://github.com/pannous/tensorflow-ocr
+### machine learning big persons
+ * https://mooc.study.163.com/smartSpec/detail/1001319001.htm/?utm_source=weibo.com&utm_medium=timeline&utm_campaign=deepLearning&utm_content=wnd20170831
+ * https://en.wikipedia.org/wiki/Geoffrey_Hinton
+ * https://en.wikipedia.org/wiki/Yann_LeCun
+ * https://en.wikipedia.org/wiki/Yoshua_Bengio
+ * https://en.wikipedia.org/wiki/Ian_Goodfellow
+ * https://en.wikipedia.org/wiki/Andrew_Ng
+ * http://karpathy.github.io/2015/11/14/ai/ https://www.coursera.org/learn/machine-learning-projects/lecture/Ggkxn/andrej-karpathy-interview http://www.hutter1.net/ai/uaibook.htm https://en.wikipedia.org/wiki/AIXI https://github.com/karpathy https://en.wikipedia.org/wiki/Fei-Fei_Li Andrej Karpathy - Director of Artificial Intelligence - Tesla https://www.sohu.com/a/114043922_114877 CS231n lesson
+ * Russ Salakhutdinov doctoral advisor was Geoff Hinton Apple as its director of AI research https://en.wikipedia.org/wiki/Russ_Salakhutdinov https://www.leiphone.com/news/201610/RKt1tarAjeqD4dEe.html https://www.coursera.org/learn/machine-learning-projects/lecture/kR8gk/ruslan-salakhutdinov-interview 无监督学习 深度强化学习的领域  推理和自然语言理解
+ * Demis Hassabis
+ * https://www.zhihu.com/question/37922364 Yoshua Bengio为什么能跟Hinton、LeCun相提并论
+  
+### 常用概念
+#### 多重共线性
+多重共线性（Multicollinearity）是指线性回归模型中的解释变量之间由于存在精确相关关系或高度相关关系而使模型估计失真或难以估计准确
+https://blog.csdn.net/zxd1754771465/article/details/73468689
+直接删除 逐步回归 改变特征（变量）的表现形式 增加样本的数量 正则化 主成分分析（PCA）
+网页的浏览次数、点击次数等特征属于长尾分布，可以对其进行log变换，变换后的变量可以有效的降低变量之间的相关性。
+#### ROC曲线 和 PR曲线
+https://blog.csdn.net/taoyanqi8932/article/details/54409314 
+受试者工作特征曲线 （receiver operating characteristic curve，简称ROC曲线），又称为感受性曲线（sensitivity curve）
+#### 统计功效（statistical power
+统计功效（statistical power ）是指α错误是弃真错误， β错误是取伪错误。取伪错误是指， 原假设为假，样本观测值没有落在拒绝域中，从而接受原假设的概率，即在原假设为假的情况下接受原假设的概率。由此可知， 统计功效等于1-β。 
+
 ### machine learning courses
+#### 计划
+##### 1.
+http://pandas.pydata.org/pandas-docs/stable/10min.html
+##### 2.
+http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/
+##### 3.
+https://www.kaggle.com/getting-started/22835
+##### 4.
+https://developers.google.com/machine-learning/crash-course/prereqs-and-prework
+##### 5. 
+https://machinelearningmastery.com/get-started-with-kaggle/
+https://www.udacity.com/course/intro-to-machine-learning--ud120
+https://www.anaconda.com/download/#macos
+##### 6.
+http://www.instructables.com/id/Build-Your-Own-AI-Artificial-Intelligence-Assistan/
+https://github.com/fastai/fastai
+
+##### 一些有效的机器学习准则
+确保第一个模型简单易用
+着重确保数据管道的正确性
+使用简单且可观察的指标进行训练和评估
+拥有并监控您的输入特征
+将您的模型配置视为代码：进行审核并记录在案
+记下所有实验的结果，尤其是“失败”的结果
+
+
+ * https://developers.google.com/machine-learning/crash-course/prereqs-and-prework
  * https://news.ycombinator.com/item?id=15689399 Best way to get started with AI?
  * https://github.com/nfmcclure/tensorflow_cookbook
  * https://ml.berkeley.edu/blog/2016/11/06/tutorial-1/
@@ -771,6 +961,12 @@ translation, scaling, homothety, similarity transformation, reflection, rotation
  * https://lab.dataos.io/#/console/noplan https://github.com/asiainfoLDP
  * http://www.infoq.com/resource/minibooks/machine-learning-practice/zh/pdf/MachineLearning.pdf infoq 机器学习介绍
  * http://web.stanford.edu/class/cs20si/syllabus.html CS 20SI: Tensorflow for Deep Learning Research
+#### 重要的问题
+##### 机器学习的项目如何管理？
+ * https://medium.com/@erogol/designing-a-deep-learning-project-9b3698aef127
+ * 
+##### 机器学习的产品如何管理？
+
 ### deep learning camera
 #### Amazon eep learning enabled video
  * https://aws.amazon.com/deeplens/ https://news.ycombinator.com/item?id=15808968
@@ -877,6 +1073,19 @@ They named “A robot puts away the dishes from a dishwasher without breaking th
  Syntactic 语法and semantic 语义processing from a linguistic and an algorithmic perspective 从语言和算法角度的句法和语义处理
  weight tying 权重绑定 权值捆绑 input embedding输入嵌入层, output embedding输出嵌入层
  perplexity 困惑; 混乱; 复杂; 困难 困惑度指标
+##### data embedding 
+ * https://arxiv.org/abs/1709.03856 StarSpace: Embed All The Things
+ * http://www.sysml.cc/doc/115.pdf Making Machine Learning Easy with Embeddings
+User Engagement Embeddings
+Skipgram Word Embeddings
+Generating and Hosting Embeddings
+ * https://cs.wmich.edu/~yang/research/dembed/ Data Embedding Research
+##### data embedding readings 
+
+##### word embedding 
+latent space 隐空间 Word2vec Typically, the dimensionality of the vectors is set to be between 100 and 1,000.
+
+https://hackernoon.com/latent-space-visualization-deep-learning-bits-2-bd09a46920df
 ##### NLP blog
  * http://blog.indigoresearch.xyz/become-a-mocha-uson-commenter-using-lstm/
  * https://www.datasciencecentral.com/profiles/blogs/overview-of-artificial-intelligence-and-role-of-natural-language
@@ -1564,7 +1773,31 @@ Real-time Complex Event Processing and Analytics for Smart Grid 实时电力数�
  * https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/#47095a5ab54d
 #### 制造业 数据
  * https://www.kaggle.com/c/bosch-production-line-performance/data
+ * https://zhuanlan.zhihu.com/p/25686876 Kaggle入门，看这一篇就够了
+ https://blog.csdn.net/han_xiaoyang/article/details/49797143 Kaggle泰坦尼克之灾
+ https://blog.csdn.net/u012162613/article/details/41929171 Digit Recognition”
+ https://www.kaggle.com/neviadomski/how-to-get-to-top-25-with-simple-model-sklearn 
+ * https://www.zhihu.com/question/23987009 Kaggle如何入门
+ * https://www.zhihu.com/question/24533374 参加kaggle竞赛是怎样一种体验
  * https://www.reddit.com/r/datasets/comments/5c424a/industrial_manufacturing_data/
+#### kaggle competition
+##### quick start kaggle
+ * http://news.ifeng.com/a/20170524/51153663_0.shtml
+ * http://mathalope.co.uk/2017/08/02/how-to-setup-a-data-science-workflow-with-kaggle-python-docker-image-on-laptop/
+ * https://github.com/Kaggle/
+ * https://hub.docker.com/r/kaggle/python/
+ * http://blog.kaggle.com/2016/02/05/how-to-get-started-with-data-science-in-containers/
+##### video understanding 
+ * https://www.kaggle.com/c/youtube8m
+ * http://image-net.org/challenges/LSVRC/2017/index
+##### OCR
+ * https://www.kaggle.com/dylanli/chinesecharacter
+ * 
+##### fashion 
+ * https://www.kaggle.com/am1to2/data-exploration-and-analysis
+ * https://www.kaggle.com/shivamb/imaterialist-fashion-eda-object-detection-colors
+ * https://www.kaggle.com/anqitu/for-starter-json-to-multilabel-in-24-seconds/notebook
+ * https://www.zhihu.com/question/55847965
 #### 制造业 solution
  * https://www.liaison.com/blog/2017/09/20/big-data-analytics-tools-manufacturing-industry/
  * http://www.ingrammicroadvisor.com/data-center/4-big-data-use-cases-in-the-manufacturing-industry
@@ -4241,14 +4474,23 @@ ip link set dev mymacvlan2 up
 重读，找出框架所对应的答案和知识点。
 筛选并整合。
 输出与分享。
+#### 阅读要点记录
+执行清单 
+核查清单 
+沟通清单
+概念
+结论与原理
+案例
 ### 科技论文快速阅读
 标题 摘要 结论 年份 确定要不要读
 结构 前言 图表 讨论 
 
 ### 科技论文主题阅读
+http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf
 http://www.360doc.com/content/15/1214/15/8839208_520339109.shtml
-确定主题
-搜索文章，找出共同引文 找出主题大牛
+确定主题 3-5篇
+搜索文章，找出共同引文，如果找到综述文章则用综述
+ 找出主题大牛
 查看大牛主页
 看大牛当前研究方向
 筛论文
@@ -4272,6 +4514,39 @@ Organizing to 5-9
 Concept of flow
 Actionable Insights
 ```
+## Peter Sage
+Remove things
+Relaxation
+Gratitude 
+The Four Essential Principles of Luck
+https://www.thebalanceeveryday.com/scientifically-backed-ways-to-be-lucky-896762
+01  Focus Your Effort
+02  Enter as Many Sweepstakes as Possible
+03  Enter as Often as Allowed
+04  Emphasize Sweepstakes with Lots of Prizes
+05  Look for Sweepstakes that Restrict Entries from Other States
+06  Prioritize Sweeps with Restrictions by Age or Gender
+07  Search Out Local Sweepstakes
+08  Avoid Aggressively Advertised Sweepstakes
+09  Highlight Short Entry Periods
+10  The More Difficult the Entry, the Less Competition You'll Have
+
+#### Five seconds rule
+https://www.youtube.com/watch?v=2Lz0VOltZKA
+https://www.youtube.com/watch?v=Lp7E973zozc
+#### humor
+https://www.youtube.com/watch?v=RRjRgT8QQ3c
+#### focus life
+place
+path
+
+## mental exercise
+1. 前后
+2. 展示
+3. 说
+4. 真性情
+释放
+想象
 ### 逆向思维
 逆向思维也叫求异思维，它是对司空见惯的似乎已成定论的事物或观点反过来思考的一种思维方式。敢于“反其道而思之”，让思维向对立面的方向发展，从问题的相反面深入地进行探索，树立新思想，创立新形象。
 ####
@@ -4280,6 +4555,58 @@ Actionable Insights
 ```
 The customer is always right, but they can give the wrong answers.
 ```
+#### 艾瑞克·伯恩 Eric Berne People Play
+https://www.adventureswithagile.com/wp-content/uploads/MinaBostromNakicenovic-GamesPeoplePlay.pdf
+https://www.youtube.com/watch?v=YOqJ4sc9TAc
+http://www.ericberne.com/games-people-play/
+Life Games 生活游戏
+Alcoholic 酒精
+Debtor 债务人 持久成功 赢家游戏
+Kick Me 欠揍 输家游戏
+Now I’ve Got You, You Son of a Bitch  可被我抓住了 非赢家游戏
+See What You Made Me Do 都是你把我搞成这样 自我封闭，拒绝选择
+Marital Games 婚姻游戏
+Corner 角落
+Courtroom 法庭
+Frigid Woman 性冷淡女人
+Harried 忙乱的
+Look How Hard I’ve Tried 我已经尽力了
+Sweetheart 甜心 批评并容纳弱点
+Party Games 消遣
+Ain’t It Awful 这不是很糟糕吗 消遣
+Blemish 缺陷
+Schlemazl 捣乱 表面胜利 搞砸与宽恕
+Why Don’t You – Yes But 什么都改变不了 把话题挪开，区分小的不完美和大的问题
+Sexual Games 
+Let’s You and Him Fight 挑动男人们决斗
+Perversion 变态 sadistic or masochistic distortions strongly sexed  Wooden Leg 断腿心态
+Rapo 玩弄感情
+The Stocking Game 丝袜游戏
+Uproar 骚动 避免亲密
+Underworld Games 犯罪游戏
+Cops and Robbers hide-and-seek gamblers 无法找到的游戏不是好游戏 赌博
+How Do You Get Out of Here 你如何摆脱这里 逃狱
+Let’s Pull a Fast One on Joey 诚实定义不同
+Consulting Room Games 咨询室游戏
+Greenhouse 安全屋
+I’m Only Trying to Help You 我只不过是想帮你 表面相帮
+Indigence 贫穷 没有真正的决心
+Peasant 农民 更具敌意，激将法
+Psychiatry 精神病学 介绍如何得病
+Stupid 蠢
+Wooden Leg 木腿
+Good Games 好游戏
+Busman’s Holiday 公交司机的假期 消遣 换个地方用专业技能
+Cavalier 骑士 绅士精神
+Happy to Help 乐善好施
+Homely Sage 家常贤哲 家有一老 脚本 
+They’ll Be Glad They Knew Me 让他们等着瞧 努力工作
+
+
+
+
+
+
 ## Morning person evening person
  * http://www.bbc.com/capital/story/20171114-why-you-shouldnt-try-to-be-a-morning-person
 ##  Hypnagogia   
@@ -4652,6 +4979,27 @@ accounting period/reporting period 会计期 报告期
 basic period/reference period 参考期 统计期 基准期
 sampling frequency 采样频率 sampling rate 采样速率 sample period 采样周期 sampling cycle
 observation period observation duration 观察期
+### 假设检验
+ * octave functions
+https://octave.org/doc/v4.2.2/Tests.html
+#### t检验 student t 检验
+ * https://baike.baidu.com/item/t%E6%A3%80%E9%AA%8C#2
+单总体 检验是检验一个样本平均数与一已知的总体平均数的差异是否显著。当总体分布是正态分布，如总体标准差未知且样本容量 <30，那么样本平均数与总体平均数的离差统计量呈正态分布。
+双总体 检验是检验两个样本平均数与其各自所代表的总体的差异是否显著。
+#### 秩和检验 
+https://baike.baidu.com/item/%E7%A7%A9%E5%92%8C%E6%A3%80%E9%AA%8C
+H0：差值的总体中位数为0；
+H1：差值的总体中位数不为0；检验水准为0.05。
+Equal medians	kruskal_wallis_test, sign_test
+#### z检验 u检验
+大样本（即样本容量大于30）平均值差异性检验的方法
+国内也被称作u检验
+#### 参数统计与非参数统计的区别
+参数统计：即总体分布类型已知，用样本指标对总体参数进行推断或作假设检验的统计分析方法。
+非参数统计：即不考虑总体分布类型是否已知，不比较总体参数，只比较总体分布的位置是否相同的统计方法。
+#### why 30?
+https://www.quora.com/Why-is-30-considered-the-minimum-sample-size-in-some-forms-of-statistical-analysis
+
 ## sawdust 锯沫理论
  * http://www.thegrumpyprogrammer.com/2017/03/arithmetic-vs-reality-sawdust-principle.html
 

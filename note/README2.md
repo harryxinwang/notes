@@ -152,6 +152,43 @@ Engine API v1.27 docker 17.03.1-ce
  * https://github.com/dchen1107 https://github.com/lavalamp https://github.com/smarterclayton https://github.com/thockin
 ### docker sponsors
  * https://github.com/jpetazzo
+## 视频结构化
+### 问题
+#### kubeflow 跟 kaml-d 的关系
+ * https://blog.openshift.com/machine-learning-on-openshift-and-kubernetes-sig-an-invitation/ 
+#### 如何在openshift上运行kubeflow
+ * https://www.youtube.com/watch?v=ZmjrW8WmmS8
+ * https://www.youtube.com/watch?v=-yBC_bA5ABk all openshift talks
+ * https://www.youtube.com/watch?v=JRfEToH6hl8&index=5&list=PLaR6Rq6Z4IqcOF3f9GfPUCZ_l_4Vlnrwg&t=0s KubeFlow On OpenShift with Subin Modeel and Willl Benton
+##### openshift and minishift
+ * https://github.com/kubeflow/kubeflow/blob/master/user_guide.md#minikube
+#### minio 是什么
+ * https://github.com/minio/minio 对象存储
+ * https://github.com/rook/rook rook 跟minio的发展如何
+#### KVC 是什么
+ * https://ai.intel.com/kubernetes-volume-controller-kvc-data-management-tailored-for-machine-learning-workloads-in-kubernetes/
+ * https://github.com/kubeflow/experimental-kvc/blob/master/docs/user.md
+ * https://github.com/kubeflow/experimental-kvc/blob/master/docs/dev.md
+Kubernetes Volume Controller (KVC): Data Management Tailored for Machine Learning Workloads in Kubernetes
+#### kubeflow 的最新进展
+https://github.com/kubeflow/kubeflow/releases
+#### kubernetes 跟 openshift 的 Release进展。
+##### Kubernetes 1.8 中都有哪些发布内容
+ * https://blog.csdn.net/qq_34463875/article/details/78250552
+Pod 出口流量策略
+卷扩容和快照
+ephemeral-storage
+metrics-server 将会在替代 heapster 在默认监控流水线中的作用
+##### Kubernetes 1.9 中都有哪些发布内容
+容器存储接口
+IPVS mode for kube-proxy
+##### Kubernetes 1.10 中都有哪些发布内容
+容器存储接口（CSI，Container Storage Interfac）和持久本地卷（beta）
+CoreDNS作为DNS提供商
+##### Kubernetes 1.11 中都有哪些发布内容
+##### Service Catalog 发展怎么样？
+https://kubernetes.io/docs/concepts/service-catalog/
+https://kubernetes.io/docs/tasks/service-catalog/install-service-catalog-using-sc/
 ## kubernetes advertise
  * http://www.stratoscale.com/blog/kubernetes/container-orchestration-kubernetes-12-key-features/
 ### big data on kubernetes
@@ -646,6 +683,9 @@ curl -k -v -XPOST  -H "Accept: application/json, */*" -H "Authorization: Bearer 
  * https://github.com/rothgar/bashScheduler
  * https://github.com/philipn/kubernetes-sticky-node-scheduler/blob/master/scheduler.py a python scheduler
 
+#### ksonnet
+ * https://ksonnet.io/docs/concepts
+ * https://stackoverflow.com/questions/48867912/draft-and-helm-vs-ksonnet
 #### kubernetes helm
 ##### eroor Error building Helm: "hg is not installed"
  * https://github.com/kubernetes/helm/issues/2343
@@ -2161,6 +2201,10 @@ arpu Average Revenue Per User(每用户平均收入)
  * https://en.wikipedia.org/wiki/OCaml https://ocaml.org/
  * https://en.wikipedia.org/wiki/Standard_ML
  * https://github.com/facebook/infer https://en.wikipedia.org/wiki/Standard_ML
+## octave
+ * https://octave-online.net/
+### mac octave issues
+setenv("GNUTERM","qt") in your octave command prompt, it should solve the problem.
 ## Python
 ### 学习
  * http://www.jb51.net/article/33991.htm

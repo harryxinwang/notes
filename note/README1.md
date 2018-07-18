@@ -886,6 +886,10 @@ translation, scaling, homothety, similarity transformation, reflection, rotation
  * https://sideways-view.com/2016/12/02/crowdsourcing-moderation-without-sacrificing-quality/ 群包项目 AI
  * https://arxiv.org/abs/1701.01724 德州扑克 texas poker
  * http://selfdrivingcars.mit.edu/  deep learning for self-driving car
+ * https://github.com/udacity/self-driving-car-sim
+### AIOps
+ * https://dzone.com/articles/aiops-the-future-of-it-ops
+ * https://www.gartner.com/doc/reprints?id=1-48R1FQY&ct=170803&st=sb
 ### OCR resources
  * http://cs231n.stanford.edu/reports/zyh_project.pdf
  * https://github.com/wanghaisheng/awesome-ocr'
@@ -941,6 +945,25 @@ https://github.com/fastai/fastai
 将您的模型配置视为代码：进行审核并记录在案
 记下所有实验的结果，尤其是“失败”的结果
 
+##### 学习要点
+ADEPT
+analogy 类比 tell me what ist's like 告诉我它像什么
+diagram 图示 help me visualize it 帮我把它可视化
+example 举例 allow me to experience it 让我体验它
+plain english 白话 一句话说清楚
+technical definition 技术定义 discuss the formal details 讨论证实细节
+1. find a reason to learn
+2. start the simplest explanation
+3. create a set of achievable goals
+4. set deadlines
+5. let curiosity guide questions
+6. take notes by hand
+7. be uncomfortable
+8. donot multitask and focus 50 minutes
+9. find feedback
+10. maintain health
+
+brilliant https://brilliant.org/
 
  * https://developers.google.com/machine-learning/crash-course/prereqs-and-prework
  * https://news.ycombinator.com/item?id=15689399 Best way to get started with AI?
@@ -967,6 +990,9 @@ https://github.com/fastai/fastai
  * 
 ##### 机器学习的产品如何管理？
 
+##### TNT 产品评判
+http://video.eastday.com/a/180529135043740742530.html?qid=01359
+胜利文邹邹
 ### deep learning camera
 #### Amazon eep learning enabled video
  * https://aws.amazon.com/deeplens/ https://news.ycombinator.com/item?id=15808968
@@ -1384,6 +1410,11 @@ Distributed Machine Learning https://github.com/Microsoft/DMTK
 
 # blockchain
 ## https://www.hyperledger.org/
+## Atomic cross-chain trading
+ * https://www.cointelligence.com/content/guide-to-atomic-swap-trustless-cross-chain-trading/ 
+ * https://www.cryptocompare.com/coins/guides/what-are-atomic-swaps/
+## essentia 
+ * https://essentia.one/
 ## awesome blockchain
  * https://github.com/imbaniac/awesome-blockchain
  * https://github.com/igorbarinov/awesome-blockchain
@@ -1918,6 +1949,22 @@ Programming Language Agnostic 支持任何编程语言
 
 
 #### Relationship 关系图
+
+https://arxiv.org/pdf/1806.01261.pdf
+http://tkipf.github.io/graph-convolutional-networks/
+https://arxiv.org/pdf/1806.01203.pdf
+graph network limitation 
+notions like recursion, control flow, and conditional iteration are not
+straightforward to represent with graphs 
+covariance 协方差（Covariance）add or remove edges depending on context
+ partial tree traversals in a state-action graph hierarchical action policies capsules programs 
+ https://arxiv.org/pdf/1611.01855.pdf
+Recursive-Reverse-Recursive Neural Network (R3NN) to encode par-
+tial trees (derivations)
+https://arxiv.org/pdf/1711.04574.pdf Learning Explanatory Rules from Noisy Data
+https://deepmind.com/blog/learning-explanatory-rules-noisy-data/
+##### Program synthesis
+https://www.microsoft.com/en-us/research/blog/neural-guided-deductive-search-best-worlds-approach-program-synthesis/
 
 ### sigma.js
 #### 主页
@@ -3943,8 +3990,50 @@ deb-src http://mirrors.aliyun.com/ubuntu trusty universe
 deb http://mirrors.aliyun.com/ubuntu trusty-updates universe
 deb-src http://mirrors.aliyun.com/ubuntu trusty-updates universe
 ```
+### bash 常见问题
+#### export 作用
+https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps
+http://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04
+https://linux.die.net/man/1/bash
+
+传递变量到子shell
+export -n TEST_VAR 从环境变量中删除
+unset 删除shell 变量
+#### ssh 远程执行命令 docker exec 执行命令
+用引号包含
+ssh root@server2 "sync; sync; /sbin/shutdown -h now" 
+在 ssh 中可以，在docker exec 中不可以,没有bash的，可以用sh
+docker exec container sh -c ""
+在docker 中用sh -c 可以用双引号，双引号可以用多重转义\"
+#### 进程与terminal
+echo $$ 当前进程
+tty 返回当前terminal 
+who 返回所有terminal用户
+"not a tty"错误，说明没有链接到输入输出设备
+https://blog.csdn.net/mountzf/article/details/51735691 终端链接
+#### () 的作用
+将所有变量
+(git pull; make clean; make all) &
+(echo "hello world") | (grep wor)
+管道本身就是子shell，因此有没有() 是一样的
+TEST_VAR=1; bash -c 'echo $TEST_VAR'; bash -c 'echo $TEST_VAR'
+都不会显示在子shell中
+TEST_VAR=1; echo $TEST_VAR && echo $TEST_VAR 显示
+TEST_VAR=1; echo $TEST_VAR && (echo $TEST_VAR) 显示
+子shell 会引进所有shell变量和环境变量，不仅仅是环境变量
+TEST_VAR=1; echo $TEST_VAR | (echo $TEST_VAR)
+#### printenv env
+区别，不同人写的
+#### env set
+env 是环境变量 set 是shell变量
+为什么 TEST_VAR=value echo $TEST_VAR 没有值
+因为替换变量在给值之前已经替换
+可以显示出变量值，并且TEST_VAR不会进入shell 变量
+TEST_VAR=1 bash -c 'echo $TEST_VAR'
 ### echo
 echo ${VAR} 丢失换行 echo "${VAR}" 保留换行
+可以显示出hello world
+TEST_VAR=2 bash -c 'echo $TEST_VAR; echo "hello world"'
 ### here document
  * http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/here-docs.html
  * http://blog.csdn.net/diy534/article/details/6998775
@@ -4602,7 +4691,11 @@ Happy to Help 乐善好施
 Homely Sage 家常贤哲 家有一老 脚本 
 They’ll Be Glad They Knew Me 让他们等着瞧 努力工作
 
-
+### 书法
+汉隶唐楷
+#### 楷书
+#### 隶书
+蚕头燕尾 一波三折
 
 
 
@@ -4905,6 +4998,16 @@ Adding a name to the triple makes a "quad store" or named graph
 通名还是专名，区别在于说话者的意图，是指向单个对象还是指向一类事务的多个对象。也就是说在说话者上下文的前提下，判断它是指一个单个对象还是一类事务。一般情况下，如果没有具体的“说话者”，那就以大多数人的约定上下文为准。楼主说的“泰坦尼克号”肯定是专名。而楼主的3个“泰坦尼克号”，实际是“泰坦尼克号刚出厂的状态”、“泰坦尼克号1912年4月3日的状态”和“泰坦尼克号1912年4月3日断成两截的状态”。也就是说这里的主语是“状态”，而不是“泰坦尼克号”，显然，“状态”一词是指向一类事务，可以指代多个对象，是个通名。
 
 ## philosophy 哲学
+### Abstract and concrete
+abstracta 抽象物 concreta 具体物
+quasi-abstract 准抽象 Specially, the ability to have temporal location, but not spatial location, and have causal agency
+ abstract-concrete distinction contends that an object is abstract if it lacks any causal powers 因果力量
+Type–token distinction 区分类型和符号 the bicycle is becoming more popular" the word "bicycle" is a type representing a concept; whereas in the sentence "the bicycle is in the garage" the word "bicycle" is a token representing a particular object
+https://plato.stanford.edu/entries/abstract-objects/
+metaphysics 形而上学 epistemology 认识论
+### facts rules
+https://boklm.eu/prolog/page_4.html 
+Predicate 谓词, 谓语 断言
 ### speech act types 发言动作
 locutionary 言内行为
 illocutionary 言外行为

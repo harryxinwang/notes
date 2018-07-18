@@ -1787,6 +1787,9 @@ Simulated annealing 模拟退火
 
 #### algorithm book
  * http://www.parallel-algorithms-book.com/ Algorithm Design: Parallel and Sequential
+ * https://blog.csdn.net/yake827/article/details/52119469 五大常用算法：分治、动态规划、贪心、回溯和分支界定
+ 递推、递归、迭代 递推-----从已知到未知，从小到大 递归----从未知到已知，从大到小，再从小到大 递推的效率高于递归
+ 动态规划方法求解，必须满足无后效性原则和最优子结构
 ### generic interface
 ### Simplex rithm  单纯形法
 #### file

@@ -4794,6 +4794,16 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
  * transfinite 超穷基数
 ### Mathematics for Computer Science
  * https://courses.csail.mit.edu/6.042/spring17/mcs.pdf Mathematics for Computer Science
+### 概率
+#### 线性独立与统计独立
+ * https://drchristiansalas.com/2014/10/03/on-linear-independence-and-statistical-independence/
+ * https://math.stackexchange.com/questions/917313/the-difference-between-statistically-independent-and-linearly-independent
+ covariance is a measure of `non-orthogonality’ 协方差是非正交性的度量，线性独立不一定正交 皮尔森相关系数（Pearson correlation coefficient）卡尔·皮尔逊（Karl Pearson）
+ * https://stats.stackexchange.com/questions/129600/linear-independence-vs-statistical-independence-pca-and-ica
+ * https://en.wikipedia.org/wiki/Correlation_and_dependence
+ * distance correlation or distance covariance 距离相关系数 https://en.wikipedia.org/wiki/Distance_correlation
+ * Independent Component Analysis 独立因素分析 ICA http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030161#pcbi-0030161-g008
+
 ### 数学论文
  * http://web.stonehill.edu/compsci/History_Math/math-read.htm
 ### 自行车

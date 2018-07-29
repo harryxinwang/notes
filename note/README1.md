@@ -434,6 +434,7 @@ Bayesian networks are directed 有向and acyclic 无环, whereas Markov networks
 Pairwise Markov property 成对马尔可夫性
 Local Markov property 局部马尔可夫性
 Global Markov property 全局马尔可夫性
+time-homogeneous 时间齐次 
 ```
 ##### chatbot business
  * https://iq.intel.com/chatbots-power-superior-service/
@@ -4738,7 +4739,46 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
 |给对方制造同样的处境| 当时你在哪儿 | 难为人的请求 | 问你秘密 |
 |简单、意外、具体、时效、影响每个人的社会变革| 劝人买房、股灾 | 听众注意力分散时 | 演讲主题切换 |
 |自嘲自己的缺点| 马云像坏人、穿着、面、紧张 | 强调自己所推崇的关键因素 | 演讲、自我介绍 |
-
+##### 7 to get respect
+1. defending your time
+2. pause
+3. taking up the space
+4. finishing your sentence strongly
+5. display social courage
+6. sharing your values
+7. call people on their bad behavior
+##### think faster under presure
+1. doing the opposite
+2. know the first thing to say
+3. know your framework
+##### 6 Phrases That Instantly Persuade People
+1. Have you ever made an exception? 以前破过例吗？
+2. If I am in your position? 如果我是你的话。
+3. 如果你雇了我或别人，一年后你如何知道自己的判断是否正确？
+4. 说对方名字
+5. yes ladder
+6. add because 说因为
+##### 6 Mindsets That Will Make You Magnetic
+1. always OK 没事的
+2. 个性比别人的看法更重要
+3. 诚实
+4. 不需要让别人信服
+5. proactive say the purpose
+6. be the first person
+##### 5. 破坏气氛
+1. No problem. 用 I am happy for helping.
+2. You messed up.  用被动语态，不要特指。
+3. 说不好。要说正面
+4. you always you never
+5. asking 变成offering
+##### 6. how to read people
+1. Self-awareness
+2. attention 注意力
+3. is engaged making predictions recoganize patterns
+##### 3 Body Language Tips To Instantly Look More Attractive
+1. expand
+2. seeking other places
+3. smiling
 ### time management
  * https://alexvermeer.com/how-to-get-the-most-out-of-the-next-year/
  * https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives
@@ -4799,6 +4839,9 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
  * https://drchristiansalas.com/2014/10/03/on-linear-independence-and-statistical-independence/
  * https://math.stackexchange.com/questions/917313/the-difference-between-statistically-independent-and-linearly-independent
  covariance is a measure of `non-orthogonality’ 协方差是非正交性的度量，线性独立不一定正交 皮尔森相关系数（Pearson correlation coefficient）卡尔·皮尔逊（Karl Pearson）
+ distance covariance is the same as the Brownian covariance
+ 典型关联分析(Canonical Correlation Analysis)  Independent component analysis 独立分量分析
+ Energy distance 能量距离
  * https://stats.stackexchange.com/questions/129600/linear-independence-vs-statistical-independence-pca-and-ica
  * https://en.wikipedia.org/wiki/Correlation_and_dependence
  * distance correlation or distance covariance 距离相关系数 https://en.wikipedia.org/wiki/Distance_correlation

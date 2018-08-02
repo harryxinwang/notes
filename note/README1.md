@@ -908,6 +908,7 @@ translation, scaling, homothety, similarity transformation, reflection, rotation
  * Demis Hassabis
  * https://www.zhihu.com/question/37922364 Yoshua Bengio为什么能跟Hinton、LeCun相提并论
   
+
 ### 常用概念
 #### 多重共线性
 多重共线性（Multicollinearity）是指线性回归模型中的解释变量之间由于存在精确相关关系或高度相关关系而使模型估计失真或难以估计准确
@@ -938,6 +939,13 @@ https://www.anaconda.com/download/#macos
 http://www.instructables.com/id/Build-Your-Own-AI-Artificial-Intelligence-Assistan/
 https://github.com/fastai/fastai
 
+##### 	Jason's Machine Learning 101
+ * https://news.ycombinator.com/item?id=17667705
+ * https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?imm_mid=0f9b7e&cmp=em-data-na-na-newsltr_20171213&slide=id.g22755fa8e4_0_15
+##### math and machine learning
+ * https://blog.ycombinator.com/learning-math-for-machine-learning/
+ * https://developers.google.com/machine-learning/guides/rules-of-ml/
+ * https://distill.pub/ A modern medium for presenting research
 ##### 一些有效的机器学习准则
 确保第一个模型简单易用
 着重确保数据管道的正确性
@@ -1091,6 +1099,7 @@ They named “A robot puts away the dishes from a dishwasher without breaking th
  * https://github.com/jiasenlu/HieCoAttenVQA https://github.com/VT-vision-lab/VQA_LSTM_CNN This code is written in Lua and requires Torch.
  * https://en.wikipedia.org/wiki/Question_answering
 ##### NLP
+ * https://github.com/opennmt/opennmt https://slator.com/academia/4000-lines-code-harvard-hopes-will-change-translation/
  * https://tomassetti.me/guide-natural-language-processing/ A Guide to Natural Language Processing
  * http://ofir.io/Neural-Language-Modeling-From-Scratch/ Neural Language Modeling From Scratch
  * http://colah.github.io/posts/2015-08-Understanding-LSTMs/ LSTM Recurrent Neural Networks
@@ -1662,6 +1671,16 @@ eth.accounts
  * https://www.confluent.io/blog/introducing-kafka-streams-stream-processing-made-simple/
  * https://mapr.com/blog/real-time-streaming-data-pipelines-apache-apis-kafka-spark-streaming-and-hbase/
  * https://github.com/confluentinc confluent-kafka-go confluent-kafka-python kafka-connect-elasticsearch
+##### confluent service
+ * https://aws.amazon.com/cn/quickstart/architecture/confluent-platform/
+ * https://www.confluent.io/confluent-cloud/?utm_source=aws.amazon.com&utm_medium=site-link&utm_campaign=aws&utm_term=term&utm_content=content
+ * https://www.confluent.io/blog/confluent-cloud-pro-gcp/
+ * https://www.youtube.com/watch?v=Tl9-j3XG8bQ  
+##### 比较 rocketmq
+ * https://www.cnblogs.com/BYRans/p/6100653.html
+ * https://fdx321.github.io/2018/01/03/Kafka-Vs-RocketMQ/
+ * https://www.jianshu.com/p/c474ca9f9430 rocketMq和kafka的架构区别
+ * https://blog.csdn.net/douliw/article/details/44179009 评价版
 #### deepspark
  * https://github.com/deepspark/deepspark deep learning to review code
 #### spark machinelearning
@@ -1819,6 +1838,7 @@ Real-time Complex Event Processing and Analytics for Smart Grid 实时电力数�
  * https://github.com/Kaggle/
  * https://hub.docker.com/r/kaggle/python/
  * http://blog.kaggle.com/2016/02/05/how-to-get-started-with-data-science-in-containers/
+ * https://www.kaggle.com/c/nyc-taxi-trip-duration
 ##### video understanding 
  * https://www.kaggle.com/c/youtube8m
  * http://image-net.org/challenges/LSVRC/2017/index
@@ -4834,6 +4854,9 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
  * transfinite 超穷基数
 ### Mathematics for Computer Science
  * https://courses.csail.mit.edu/6.042/spring17/mcs.pdf Mathematics for Computer Science
+ * https://www.theatlantic.com/education/archive/2013/10/the-myth-of-im-bad-at-math/280914/
+### Probabilistic graphical models (PGMs)
+ * https://www.coursera.org/specializations/probabilistic-graphical-models
 ### 概率
 #### 线性独立与统计独立
  * https://drchristiansalas.com/2014/10/03/on-linear-independence-and-statistical-independence/
@@ -4843,6 +4866,7 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
  典型关联分析(Canonical Correlation Analysis)  Independent component analysis 独立分量分析
  Energy distance 能量距离
  * https://stats.stackexchange.com/questions/129600/linear-independence-vs-statistical-independence-pca-and-ica
+ PCA ICA t-SNE SOM tSNE
  * https://en.wikipedia.org/wiki/Correlation_and_dependence
  * distance correlation or distance covariance 距离相关系数 https://en.wikipedia.org/wiki/Distance_correlation
  * Independent Component Analysis 独立因素分析 ICA http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030161#pcbi-0030161-g008

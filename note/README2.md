@@ -686,7 +686,17 @@ curl -k -v -XPOST  -H "Accept: application/json, */*" -H "Authorization: Bearer 
 #### ksonnet
  * https://ksonnet.io/docs/concepts
  * https://stackoverflow.com/questions/48867912/draft-and-helm-vs-ksonnet
+##### operator
+ * https://github.com/kubeflow/tf-operator
+ * https://github.com/operator-framework/awesome-operators
+ * https://medium.com/@cloudark/why-to-write-kubernetes-operators-9b1e32a24814
+ * https://medium.com/bluecore-engineering/were-all-using-airflow-wrong-and-how-to-fix-it-a56f14cb0753 airflow with operator
+ * https://news.ycombinator.com/item?id=16968873 
+ * https://thenewstack.io/red-hat-releases-a-framework-to-easily-package-applications-for-kubernetes/
 #### kubernetes helm
+#### helm3
+ * https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle-vs-skaffold-f5aa9561f948
+ * https://github.com/helm/community/blob/master/helm-v3/000-helm-v3.md
 ##### eroor Error building Helm: "hg is not installed"
  * https://github.com/kubernetes/helm/issues/2343
  * https://github.com/kubernetes/helm/pull/2344

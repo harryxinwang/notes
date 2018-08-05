@@ -4799,6 +4799,32 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
 1. expand
 2. seeking other places
 3. smiling
+#### 诚实 honest
+##### How to be honest with yourself
+如何对自己诚实
+Preparing to Self-Assess
+Performing a Self-Assessment  
+Reviewing and Acting On Your Self-Assessment
+##### Ways for Teaching Honesty to Kids
+如何教孩子诚实
+1. Practice Attachment Parenting
+2. Model Truth
+3. The Truthful Self is OK
+4. Don’t Label the Child Who Lies
+5. Avoid setups for lying
+6. Teaching Honesty to Kids by Expecting the Truth
+7. When Your Child Lies
+8. Encourage Honesty
+9. Teach a Child When Silence is not Lying
+Sometimes it’s best to keep thoughts to yourself.
+If you can’t say anything nice, don’t say anything at all.
+10. Get Behind the Eyes of Your Child
+从孩子的角度解释问题
+##### What can I do to change my parents' bad habits?
+怎么改变父母的坏习惯
+苏格拉底式交谈，让他们自己意识到自己的问题，提供帮助
+ * https://www.quora.com/What-can-I-do-to-change-my-parents-bad-habits
+ * https://www.allinahealth.org/HealthySetGo/SingleArticle.aspx?id=36507243061
 ### time management
  * https://alexvermeer.com/how-to-get-the-most-out-of-the-next-year/
  * https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives

@@ -686,10 +686,12 @@ curl -k -v -XPOST  -H "Accept: application/json, */*" -H "Authorization: Bearer 
 #### ksonnet
  * https://ksonnet.io/docs/concepts
  * https://stackoverflow.com/questions/48867912/draft-and-helm-vs-ksonnet
+ * https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle-vs-skaffold-f5aa9561f948
 ##### operator
  * https://github.com/kubeflow/tf-operator
  * https://github.com/operator-framework/awesome-operators
  * https://medium.com/@cloudark/why-to-write-kubernetes-operators-9b1e32a24814
+ * https://www.redhat.com/en/blog/introducing-operator-framework-building-apps-kubernetes
  * https://medium.com/bluecore-engineering/were-all-using-airflow-wrong-and-how-to-fix-it-a56f14cb0753 airflow with operator
  * https://news.ycombinator.com/item?id=16968873 
  * https://thenewstack.io/red-hat-releases-a-framework-to-easily-package-applications-for-kubernetes/
@@ -2223,6 +2225,8 @@ setenv("GNUTERM","qt") in your octave command prompt, it should solve the proble
  * http://www.jb51.net/article/33991.htm
  * http://docs.python.org/tutorial/index.html
  * http://www.pythonchallenge.com/
+ * https://learnpythonthehardway.org/book/ex0.html
+ * https://www.datacamp.com/courses/intro-to-python-for-data-science
 #### fabric
  * http://www.fabfile.org/
  * https://pypi.python.org/pypi/Fabric3
@@ -2602,7 +2606,10 @@ Examination of small programs leads to the conclusion that requiring exception s
  * http://rustbyexample.com/
  * https://github.com/rust-lang/rust-by-example
  * https://github.com/PumpkinDB/PumpkinDB
-
+## scala
+### Programming in Scala
+ * https://www.artima.com/pins1ed/a-scalable-language.html
+ * https://booksites.artima.com/programming_in_scala_3ed/examples/
 ## testing
  * https://github.com/mozilla/moztrap/  https://moztrap.mozilla.org/results/runs/?
  * https://github.com/lemonlatte/docker-moztrap https://hub.docker.com/r/lemonlatte/docker-moztrap/

@@ -922,6 +922,8 @@ https://blog.csdn.net/taoyanqi8932/article/details/54409314
 统计功效（statistical power ）是指α错误是弃真错误， β错误是取伪错误。取伪错误是指， 原假设为假，样本观测值没有落在拒绝域中，从而接受原假设的概率，即在原假设为假的情况下接受原假设的概率。由此可知， 统计功效等于1-β。 
 
 ### machine learning courses
+ * https://www.youtube.com/watch?v=waXHrc2m9K8
+ * https://github.com/llSourcell/Machine_Learning_Journey
 #### 计划
 ##### 1.
 http://pandas.pydata.org/pandas-docs/stable/10min.html
@@ -976,6 +978,7 @@ brilliant https://brilliant.org/
 
  * https://developers.google.com/machine-learning/crash-course/prereqs-and-prework
  * https://news.ycombinator.com/item?id=15689399 Best way to get started with AI?
+ * https://www-users.cs.umn.edu/~kumar001/dmbook/index.php machine learning book data mining book 
  * https://github.com/nfmcclure/tensorflow_cookbook
  * https://ml.berkeley.edu/blog/2016/11/06/tutorial-1/
  * http://yerevann.com/a-guide-to-deep-learning/
@@ -1984,6 +1987,16 @@ Recursive-Reverse-Recursive Neural Network (R3NN) to encode par-
 tial trees (derivations)
 https://arxiv.org/pdf/1711.04574.pdf Learning Explanatory Rules from Noisy Data
 https://deepmind.com/blog/learning-explanatory-rules-noisy-data/
+##### Neural_Arithmetic_Logic_Units
+ * https://arxiv.org/abs/1808.00508
+ * https://www.youtube.com/watch?v=v9E7Wg0dHiU
+ * https://github.com/llSourcell/Neural_Arithmetic_Logic_Units
+ * https://www.analyticsindiamag.com/finally-computers-can-learn-to-count-better/
+ * http://www.sohu.com/a/245182472_473283
+ * https://www.analyticsindiamag.com/finally-computers-can-learn-to-count-better/
+ * https://deepmind.com/blog/
+ * https://twitter.com/DeepMindAI/status/1025375916107673602
+ * http://backspaces.net/temp/Spring2010Seminar/The%20Number%20Sense.pdf
 ##### Program synthesis
 https://www.microsoft.com/en-us/research/blog/neural-guided-deductive-search-best-worlds-approach-program-synthesis/
 
@@ -3077,6 +3090,7 @@ A VirtualBox machine with the name already exists Pleas
  * Use Case design of micro services
   - http://eventuate.io/exampleapps.html
  * Event sourcing CQRS Command Query Responsibility Segeragation
+ * https://news.ycombinator.com/item?id=17817375 https://medium.com/@hugo.oliveira.rocha/what-they-dont-tell-you-about-event-sourcing-6afc23c69e9a
   - 海森堡bug http://www.infoq.com/cn/articles/exterminating-heisenbugs
   - https://github.com/eventstore/eventstore/wiki/Event-Sourcing-Basics
   - https://en.wikipedia.org/wiki/Domain-driven_design
@@ -3160,6 +3174,11 @@ A VirtualBox machine with the name already exists Pleas
  * https://blog.linkedin.com/2011/01/11/open-source-linkedin-kafka introduction
  * https://github.com/nats-io/gnatsd cloudfoundtry mqueue
  *
+#### kafka zookeeper depandency
+ * https://cwiki.apache.org/confluence/display/KAFKA/KIP-273+-+Kafka+to+support+using+ETCD+beside+Zookeeper
+ * https://cwiki.apache.org/confluence/display/KAFKA/KIP-30+-+Allow+for+brokers+to+have+plug-able+consensus+and+meta+data+storage+sub+systems
+ * https://lists.apache.org/thread.html/2bc187040051008452b40b313db06b476c248ef7a5ed7529afe7b118@1448997154@%3Cdev.kafka.apache.org%3E 
+ * https://lists.apache.org/thread.html/17952e8872088a71a07c3410a022c60458884c72a28c5ad65b160beb@%3Cdev.kafka.apache.org%3E
 ### redis
  * http://yaychris.com/blog/2009/11/redis-part-1.html
  * http://redis.io/clients#bash
@@ -4564,6 +4583,9 @@ ip link set dev mymacvlan2 up
  * https://comparisons.financesonline.com/quickbooks-pro-vs-practicepanther
  * https://www.zhihu.com/question/46284778/answer/143600686 律师一般会使用哪些APP
  * https://www.zhihu.com/question/41321086/answer/111460443 现在都有哪些互联网法律服务平台？这些平台都怎么样？
+# 经济学
+## 经济学视频
+ * https://www.youtube.com/watch?v=rFV7wdEX-Mo 经济机器是怎样运行的
 # 心理学  psycology
 ## 阅读
 ### 快速阅读
@@ -4767,10 +4789,17 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
 5. display social courage
 6. sharing your values
 7. call people on their bad behavior
+##### How To Influence Someone
+ * https://www.youtube.com/watch?v=pFs0CLPCr6o&list=PLefV978fp07e9AYdW47MLssJii8vdTv-7&index=6
+ * 刻板印象内容模型(Stereotype Content Model,SCM) https://en.wikipedia.org/wiki/Stereotype_content_model (1) warmth and (2) competence
+ 1. warm and competence 2. place 3. take things
 ##### think faster under presure
 1. doing the opposite
 2. know the first thing to say
 3. know your framework
+##### How To Be More Self Aware
+1. recoganize yourself
+2. put honesty before integrity
 ##### 6 Phrases That Instantly Persuade People
 1. Have you ever made an exception? 以前破过例吗？
 2. If I am in your position? 如果我是你的话。
@@ -4795,16 +4824,69 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
 1. Self-awareness
 2. attention 注意力
 3. is engaged making predictions recoganize patterns
+##### learning cross 
+X: usefulness for future
+Y: difficult
+FAST: 
+forget: 3 things: already know, not urgent, limitations
+activate: ask questions, code
+state: happy, 
+teach: learn to teach other, 
+##### 5 Ways To Increase Confidence, Assertiveness & Energy testosterone 睾丸素
+ * https://www.youtube.com/watch?v=Llv9Lu9OH50
+ * 1. 间歇性禁食(Intermittent Fasting)提高基础代谢率 （以下简称IF）
+ * 2. exercise https://www.youtube.com/watch?v=WxDaaFVXFyU   
+ * 3. fish oil / vitamine D
+ * 4. ZMA sleep
+ * 5. remove killers: sugar, trans-fat, beer, stress
+      Power   Strenth     Hypertrophy    Endurance
+EXE  Box Jump PL Deadlift Chest prest    Distance Run
+TUT  <1S      1-2S        4-12S          ---
+TEMPO XOX     101         313            ---
+Intensity 100% 85-95%     75%            50%
+Reps  1       1-3         6-12           15+       
+Sets  4-8     3-5         2-3      
+REST  3-5Min  2-4Min      60-90S
+TUT Time under tension
 ##### 3 Body Language Tips To Instantly Look More Attractive
 1. expand
 2. seeking other places
 3. smiling
+##### manly voice
+ * https://www.youtube.com/watch?v=z4SW_xMueXU
+##### Create An Attractive Voice
+ * https://www.youtube.com/watch?v=RuXkEJzmp50
+progect from mask
+breath from diaphragm
+##### The 3 Mistakes You MUST Avoid - Jordan Peterson
+ 1. fixing yourself
+ 2. tell the truth
+ 3. integrate your shadow
+##### THE 13 TRUTHS - JORDAN PETERSON
+ * https://www.youtube.com/watch?v=VYJp813tGH4
+ * https://en.wikiquote.org/wiki/Jordan_Peterson
+##### 12 Rules for Life: An Antidote to Chaos 
+https://www.theguardian.com/books/2018/jan/28/12-rules-for-life-an-antidote-to-chaos-by-jordan-b-peterson-digested-read
+https://www.jianshu.com/p/ba3c8f6be1c5
 #### 诚实 honest
 ##### How to be honest with yourself
 如何对自己诚实
 Preparing to Self-Assess
 Performing a Self-Assessment  
 Reviewing and Acting On Your Self-Assessment
+##### 幽默和夸奖
+ * https://www.youtube.com/watch?v=M5mgdJDEgwU
+ * https://www.youtube.com/watch?v=0kaR6-MIV8k
+##### 第一次介绍
+ * I don't think we met before. I'm
+ * 先招手，等待回应，再聊天
+ARE method Anchor Reveal Encourage
+FORM Family Occupation Recreation Motivation
+How To Avoid Embarrassing Yourself In An Argument
+https://www.youtube.com/watch?v=nS9W-wlJHPA
+##### How To Meet Cool People After College
+  * be the bub
+  * 
 ##### Ways for Teaching Honesty to Kids
 如何教孩子诚实
 1. Practice Attachment Parenting

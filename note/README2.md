@@ -172,6 +172,7 @@ Engine API v1.27 docker 17.03.1-ce
 Kubernetes Volume Controller (KVC): Data Management Tailored for Machine Learning Workloads in Kubernetes
 #### kubeflow 的最新进展
 https://github.com/kubeflow/kubeflow/releases
+ * https://news.ycombinator.com/item?id=17820626 https://medium.com/@cfatechblog/edge-computing-at-chick-fil-a-7d67242675e2 Edge Computing
 #### kubernetes 跟 openshift 的 Release进展。
 ##### Kubernetes 1.8 中都有哪些发布内容
  * https://blog.csdn.net/qq_34463875/article/details/78250552
@@ -239,6 +240,8 @@ Test API server with curl
  * https://hub.docker.com/r/getwarped/tensorflow-notebook/
  * https://github.com/getwarped/jupyter-stacks https://github.com/getwarped/jupyter-stacks/tree/master/minimal-notebook https://github.com/getwarped/jupyter-stacks/tree/master/tensorflow-notebook 所有的notebook
  * https://github.com/getwarped/powershift-cli python for openshift
+ * https://zero-to-jupyterhub.readthedocs.io/en/latest/
+  Zero to JupyterHub with Kubernetes
 #### spark on cloudfoundtry
  * https://github.com/murraju/spark-boshrelease
 #### spark use cases
@@ -1641,6 +1644,14 @@ minikube start --vm-driver=virtualbox --extra-config apiserver.cors-allowed-orig
  * https://www.slideshare.net/AlexCasalboni/serverless-machine-learning-on-aws-serverless-meetup-milano
  * http://containerjournal.com/2016/03/23/serverless-applications-future-microservices/
  * https://github.com/metrue/fx Poor man's serverless framework based on Docker, Function as a Service with painless.
+##### serverless comparison
+ * https://logz.io/blog/serverless-guide/
+ * https://medium.com/@amiram_26122/the-hidden-costs-of-serverless-6ced7844780b
+ * https://medium.com/@amiram_26122/the-hidden-costs-of-serverless-6ced7844780b
+##### Cloud IDE Web IDE
+ * https://github.com/theia-ide/theia
+ * https://github.com/facebook-atom/atom-in-orbit
+ * https://github.com/Coding/WebIDE
 ##### serverless programming language
  * https://www.quora.com/Which-programming-languages-are-used-in-serverless-computing-What-are-the-market-shares-for-Python-and-JavaScript
 ##### FaaS framework
@@ -2227,6 +2238,7 @@ setenv("GNUTERM","qt") in your octave command prompt, it should solve the proble
  * http://www.pythonchallenge.com/
  * https://learnpythonthehardway.org/book/ex0.html
  * https://www.datacamp.com/courses/intro-to-python-for-data-science
+ * https://github.com/donnemartin/interactive-coding-challenges Interactive Python coding interview challenges 
 #### fabric
  * http://www.fabfile.org/
  * https://pypi.python.org/pypi/Fabric3
@@ -2341,6 +2353,8 @@ parser:
   Top-down parsing:
     LL parser is a top-down parser for a subset of context-free languages
 ```
+### prolog
+ * http://www.learnprolognow.org/lpnpage.php?pagetype=html&pageid=lpn-htmlse1
 #### Language Workbench
  * https://www.martinfowler.com/articles/languageWorkbench.html#simpleExample concrete syntax and abstract syntax
  * https://www.martinfowler.com/bliki/IllustrativeProgramming.html

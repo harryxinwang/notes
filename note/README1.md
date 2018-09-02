@@ -4634,11 +4634,68 @@ http://www.360doc.com/content/15/1214/15/8839208_520339109.shtml
 ## 自我认知
  * http://blog.hiddenwangcc.com/archives/1987 不要打破你的镜子
  * https://club.1688.com/article/34884737.html 约.哈利窗
- *
+ * https://news.ycombinator.com/item?id=12612292
+## IQ test 智商测试
+ * https://www.test-iq.org/results-new/?quiz_ref_id=11570177
+ * http://www.iqcomparisonsite.com/iqbasics.aspx
 ## 20 hours 20小时定律
  * http://www.jianshu.com/p/8e8c250ae5b0
 ## Getting Things Done
  * https://blog.zenkit.com/a-beginners-guide-to-getting-things-done-3cc1a5123b98
+## Prediction markets 预测性市场
+ * https://static-content.springer.com/esm/art%3A10.1038%2Fs41562-018-0399-z/MediaObjects/41562_2018_399_MOESM1_ESM.pdf
+ * https://thezvi.wordpress.com/
+21项心理测试
+综合结论：
+1. 有赌注的时候，人们的选择更加理性和一致。
+2. 人们对权威的信任比实际乐观一点儿0.05，乐观15％
+3. 对于靠谱的理论，有赌注和没赌注的分歧更大；对不靠谱的理论，有赌注和没赌注的分歧更小。也就是说，直觉对于鉴别不靠谱很管用。多数人说不靠谱，是真的不靠谱。多数人说靠谱，要注意专家的意见。
+### Ackerman
+0.22 沉剪切板比轻剪切板面试官打分高
+### Lee and Schwarz
+0.32 手洗会减少不同洗衣粉的感官差异
+### Kidd and Castano
+0.34 读科幻小说比其他小说更有治疗效果
+### Gervais and Norenzayan
+0.36 看照片比看艺术照更不利于宗教信仰
+### Shah
+0.49 贫穷治疗比富有治疗效果差
+### Sparrow
+0.51 计算机词汇比非计算机词汇更容易理解
+### Ramirez and Beilock
+0.52 心理总结对高压数学测验有效果
+### Rand
+0.53 天生合作反思后不合作
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4011763/
+-------------分界线
+### Wilson
+0.57 12分钟外在娱乐比12分钟冥想娱乐更快乐
+### Morewedge
+0.58 重复想象食物可以节食
+### Kovacs
+0.62 以己度人
+### Derex
+0.65 组织越大，越能保持多样性
+### Karpicke and Blunt
+0.70 重复提取Retrieval Practice 比Concept Mapping概念映射更有利于记忆。
+http://chuansong.me/n/406125743954
+### Duncan
+0.73 新东西比旧东西更能提醒人记住相似的东西
+### Pyc and Rawson
+0.76 测试复习比一般复习更有效果
+### Nishi
+0.78 看得见的财富导致更大的财富不平等
+### Aviezer
+0.80 心态影响身体治疗
+### Balafoutas and Sutter
+0.85 有竞争可以增加选择
+### Janssen
+0.89 通信提高效果
+### Gneezy
+0.92 开销已付可以提升捐献意愿
+### Hauser
+0.95 集体选举比个人选举更能保持
+
 ## Miller's Law
  * https://blog.prototypr.io/the-most-important-rule-in-ux-design-that-everyone-breaks-1c1cb188931
 ```
@@ -4800,6 +4857,9 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
 ##### How To Be More Self Aware
 1. recoganize yourself
 2. put honesty before integrity
+3. create a list and a list of behaviors
+4. see the truth 10 minutes to think
+5. 
 ##### 6 Phrases That Instantly Persuade People
 1. Have you ever made an exception? 以前破过例吗？
 2. If I am in your position? 如果我是你的话。
@@ -4807,6 +4867,12 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
 4. 说对方名字
 5. yes ladder
 6. add because 说因为
+##### small talks
+ * https://www.youtube.com/watch?v=kFsgTa17Xwo
+1. answer with your feelings
+2. talk something related, not answer questions directly
+3. pause and let others to opt'in
+
 ##### 6 Mindsets That Will Make You Magnetic
 1. always OK 没事的
 2. 个性比别人的看法更重要
@@ -4858,6 +4924,11 @@ TUT Time under tension
  * https://www.youtube.com/watch?v=RuXkEJzmp50
 progect from mask
 breath from diaphragm
+##### 3 Jokes Guaranteed To Make People Laugh
+ * https://www.youtube.com/watch?v=T6Ea6fPfMeQ
+1. fake out, say don't like, live positive qualities, ask yourself what people expect, say opposite
+2. in character, voice, speed and move
+3. Yes, and
 ##### The 3 Mistakes You MUST Avoid - Jordan Peterson
  1. fixing yourself
  2. tell the truth
@@ -4913,6 +4984,12 @@ If you can’t say anything nice, don’t say anything at all.
 
 ### story telling
  * https://www.khanacademy.org/partner-content/pixar/storytelling/we-are-all-storytellers/v/storytelling-introb
+ * https://www.youtube.com/watch?v=hDp9hVDL49Y
+1. Take the listener to the same emotional journey you had when storytelling
+2. Have a mystery to keep listener engaged like Charity Water story
+3. Have a lesson at the end for personal development as the Scott Harrison interview
+https://www.youtube.com/watch?v=KxDwieKpawg
+Unifying theory of 2+2
 
 # software tools 软件工具
 ## screen recorder 录屏软件  
@@ -4966,6 +5043,24 @@ If you can’t say anything nice, don’t say anything at all.
 ### Probabilistic graphical models (PGMs)
  * https://www.coursera.org/specializations/probabilistic-graphical-models
 ### 概率
+#### 排列组合
+https://baike.baidu.com/item/%E6%8F%92%E7%A9%BA%E6%B3%95/4862293?fr=aladdin
+捆绑法 插空法
+
+octave method
+插板法
+变形1，可以为零，变成至少为1，9 选3变成13选3
+combinations组合
+nchoosek(13,3)
+4+nchoosek(4,2)*nchoosek(9,1)+4*nchoosek(9,2)+nchoosek(9,3)
+15-3
+10个不同的球，分给4个人
+permutations 排列
+factorial(10)/factorial(4)*4^6
+4^10-4*(3^10)-6*(2^10)-4 (至少分一个)
+3^4-3*14-3=nchoosek(4,2)*3*2 必须要分情况计算
+2^4-2=4+6+4=nchoosek(4,1)*2+nchoosek(4,2)
+nchoosek(4,2)*
 #### 线性独立与统计独立
  * https://drchristiansalas.com/2014/10/03/on-linear-independence-and-statistical-independence/
  * https://math.stackexchange.com/questions/917313/the-difference-between-statistically-independent-and-linearly-independent

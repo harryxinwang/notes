@@ -843,6 +843,7 @@ plugin/pkg/admission/initialization/initialization.go#Admit
  * https://thenewstack.io/apcera-nats-moves-real-time-message-stream-brokering/
  * https://www.cloudkarafka.com/blog/2016-12-05-apachekafka-vs-rabbitmq.html https://www.quora.com/What-are-the-differences-between-Apache-Kafka-and-RabbitMQ
  * http://blog.csdn.net/linsongbin1/article/details/47781187  性能比较
+ * https://www.bizety.com/2017/06/05/open-source-stream-processing-flink-vs-spark-vs-storm-vs-kafka/
 ##### Kafka and microservice
  * https://content.pivotal.io/blog/messaging-patterns-for-event-driven-microservices
  * https://content.pivotal.io/blog/understanding-when-to-use-rabbitmq-or-apache-kafka

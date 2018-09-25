@@ -2240,6 +2240,21 @@ setenv("GNUTERM","qt") in your octave command prompt, it should solve the proble
  * https://learnpythonthehardway.org/book/ex0.html
  * https://www.datacamp.com/courses/intro-to-python-for-data-science
  * https://github.com/donnemartin/interactive-coding-challenges Interactive Python coding interview challenges 
+### python points
+import codecs
+f = codecs.open('foo.txt', 'rU', 'utf-8')
+print line,    ## trailing , so print does not add an end-of-line char
+tuple = ('hi',)   ## size-1 tuple
+(x, y, z) = (42, 13, "hike") # Assigning a tuple to an identically sized tuple of variable names
+The 'r' at the start of the pattern string designates a python "raw" string
+type conversion
+type()
+print ''
+ord('a') chr(97)
+Python 2, there is also the unichr function. Python 3 you can use chr instead of unichr
+string as possible -- i.e. + and * go as far as possible (the + and * are said to be "greedy"). leftmost and largest
+To use a dash without indicating a range, put the dash last, e.g. [abc-].  up-hat (^) at the start of a square-bracket set inverts it, so [^ab] 
+tuples = re.findall(r'([\w\.-]+)@([\w\.-]+)', str) 如果想要返回全字符串，就在最外加()
 #### fabric
  * http://www.fabfile.org/
  * https://pypi.python.org/pypi/Fabric3

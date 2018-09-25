@@ -921,9 +921,13 @@ https://blog.csdn.net/taoyanqi8932/article/details/54409314
 #### 统计功效（statistical power
 统计功效（statistical power ）是指α错误是弃真错误， β错误是取伪错误。取伪错误是指， 原假设为假，样本观测值没有落在拒绝域中，从而接受原假设的概率，即在原假设为假的情况下接受原假设的概率。由此可知， 统计功效等于1-β。 
 
-### machine learning courses
+### machine learning courses and certifications
  * https://www.youtube.com/watch?v=waXHrc2m9K8
  * https://github.com/llSourcell/Machine_Learning_Journey
+ * https://www.quora.com/What-are-the-best-artificial-Intelligence-certifications
+ * https://digitaldefynd.com/best-artificial-intelligence-courses-training-certifications/
+ * Stanford University, Coursera
+ * Udacity Machine Learning Nano Degree
 #### 计划
 ##### 1.
 http://pandas.pydata.org/pandas-docs/stable/10min.html
@@ -4638,6 +4642,24 @@ http://www.360doc.com/content/15/1214/15/8839208_520339109.shtml
 ## IQ test 智商测试
  * https://www.test-iq.org/results-new/?quiz_ref_id=11570177
  * http://www.iqcomparisonsite.com/iqbasics.aspx
+## How to ask good questions
+https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/
+ * https://jvns.ca/blog/good-questions/
+1. find a good time
+2. choose who to ask
+3. state what you know
+4. Be willing to say what you don’t understand
+5. Identify terms you don’t understand
+6. do some research
+7. ask factual questions
+8. profit
+9. Ask questions to show what’s not obvious
+## 5 Common Phrases That Show You Lack Confidence
+1. obvious 显然- appreciation
+2. you should 你应该 - 如果是我，我可能考虑 if I were you, if ...
+3. real 真的
+4. no but 不对的 - validate something it seems, it sounds
+5. more difficult than - 
 ## 20 hours 20小时定律
  * http://www.jianshu.com/p/8e8c250ae5b0
 ## Getting Things Done
@@ -4650,6 +4672,7 @@ http://www.360doc.com/content/15/1214/15/8839208_520339109.shtml
 1. 有赌注的时候，人们的选择更加理性和一致。
 2. 人们对权威的信任比实际乐观一点儿0.05，乐观15％
 3. 对于靠谱的理论，有赌注和没赌注的分歧更大；对不靠谱的理论，有赌注和没赌注的分歧更小。也就是说，直觉对于鉴别不靠谱很管用。多数人说不靠谱，是真的不靠谱。多数人说靠谱，要注意专家的意见。
+4. 分歧较大的理论，有赌注的更可信。
 ### Ackerman
 0.22 沉剪切板比轻剪切板面试官打分高
 ### Lee and Schwarz
@@ -4695,6 +4718,9 @@ http://chuansong.me/n/406125743954
 0.92 开销已付可以提升捐献意愿
 ### Hauser
 0.95 集体选举比个人选举更能保持
+
+### 预测性市场
+ * https://medium.com/@ianedws/4-crypto-prediction-market-platforms-compared-f1fb187b3ad
 
 ## Miller's Law
  * https://blog.prototypr.io/the-most-important-rule-in-ux-design-that-everyone-breaks-1c1cb188931
@@ -4973,6 +4999,102 @@ Sometimes it’s best to keep thoughts to yourself.
 If you can’t say anything nice, don’t say anything at all.
 10. Get Behind the Eyes of Your Child
 从孩子的角度解释问题
+##### 5 tips to win arguments
+1. begin with what you agree
+2. 
+4. seperate your ego
+5. need 
+##### 受欢迎
+ * https://www.youtube.com/watch?v=Ai5xJfBD0EE
+1. 表达重视 亲手、亲口 无知之幕 平等表达 请他帮一个忙 本能多帮忙
+2. 有限与无限游戏 永远不知道谁帮你
+##### time management
+ * https://www.youtube.com/watch?v=KNxLNY6yxRI
+ * https://www.youtube.com/watch?v=fbAYK4KQrso Timeboxing
+ * https://www.youtube.com/watch?v=1YI1k1iTFd8 怎样逼自己成为一个上进的人
+1. 好环境，新兴行业，上升环境，傻瓜指数，朋友指数
+2. 让自己被绑架
+3. 不确定的反馈
+4. 将大目标切碎，技能挑战比，心流，医生，厨师
+#### Illusion of competence
+SHSM理论
+1. seeing not mean knowing
+2. hearing conclusion not mean know how to explain
+3. searching not mean in brain
+4. much time on material not mean know
+https://www.youtube.com/watch?v=V-UvSKe8jW4
+1. Recall 30 minute on every chapter
+2. feymann technique 1. take some to understand 2. write out explain hot to teach                        3. go back to material 4. simplify use analogies
+3. repeat
+https://www.youtube.com/watch?v=wfKv2qG8d_w
+How to Focus Intensely
+##### 不纠结
+ * https://www.youtube.com/watch?v=DV4-eA4zlNs
+1. 终点站，终局思维
+2. 指南针，不变的比变的重要
+3. 金丝雀 具体衡量的底线 棕色巧克力豆
+4. 白衬衫 少则得，多则惑
+##### 更有价值
+ * https://www.youtube.com/watch?v=jfo1UEgSTnQ
+司机淡旺季
+经营时间，5个台阶
+1. 珍惜时间
+2. 时间价值多元化，加入明星公司，狭窄框架效应
+3. 扩散效果，写作，分享，演讲，乘法
+4. 未来时间要价值，靠谱，事事有回音，凡事有交代，件件有着落
+5. 买别人的时间，卖掉，信任他人
+##### 重新获得信任
+ * https://www.youtube.com/watch?v=UVHMkMf5f1s
+小孩子在意对错，成人在意信任。原谅很容易，再次信任很困难。
+1. 现场行动，行动带来魅力，行动带来掌控感，既公平又聪明
+2. 特殊信用：领导力，胡海岚，打6次胜仗。保持逻辑一致性。悼词美德，简历美德。
+##### 快思维和慢思维
+ * https://www.youtube.com/watch?v=5am1YLGr8ag
+杏仁核，大脑皮层
+1. 设定边界 每句话都能登在报纸上
+2. 描述自己，变慢，不用语音功能
+3. 给它一个负担，用笔记，增加认知负担，有助于提高价值
+4. 客体化，把未来的事放到明天，跳出画框来看画
+##### 怎样让孩子爱学习
+ * https://www.youtube.com/watch?v=ligwFEk-4gw
+阅读障碍症
+玩儿游戏，把声音关掉，迅捷的反馈
+1. 迅速反馈，切分小任务
+2. 惩罚某个结果是惩罚了整个行为，不给无边界惩罚，不给无边界奖励
+3. 在线
+4. 孩子，童年，还要活很多年的人。
+
+
+
+##### 48 law
+https://www.youtube.com/watch?v=670ZGMBjrPI
+1. never outshine master
+2. never put mush trust on friend
+3. conceal your intentions
+4. say less than necessary
+5. guard reputation
+6. court attention at all cost
+7. get others to work
+8. make others come to you
+9. win through actions, not arguments
+10. inffection: avoid unhappy and unlucky
+11. keep people dependant on you
+12. selective honesty
+13. aim for win-win
+14. pose as a friend, work as a spy
+15. crush enemy totally
+16. absense increase respect and honor
+17. cultivate air of unpredictability
+18. isolation is danerous
+19. not offend the wrong person
+20. do not commit at anyone
+21. play a sucker to catch sucker
+22. tranform weakness 
+23. concentrate strenth
+24. 
+
+
+
 ##### What can I do to change my parents' bad habits?
 怎么改变父母的坏习惯
 苏格拉底式交谈，让他们自己意识到自己的问题，提供帮助
@@ -4982,8 +5104,30 @@ If you can’t say anything nice, don’t say anything at all.
  * https://alexvermeer.com/how-to-get-the-most-out-of-the-next-year/
  * https://www.theguardian.com/technology/2016/dec/22/why-time-management-is-ruining-our-lives
 
+##### mind and art
+ * https://www.newyorker.com/culture/cultural-comment/what-we-know-about-art-and-the-mind
+类比的滥用
+ Science chops up the world and then puts it back together.
+ * https://www.psychologytoday.com/us/articles/200907/unlocking-the-mysteries-the-artistic-mind
+ PEAK SHIFT
+ GROUPING
+ BALANCE
+ CONTRAST
+ ISOLATION
+ PERCEPTUAL PROBLEM SOLVING
+ SYMMETRY
+ REPETITION, RHYTHM, ORDERLINESS
+ GENERIC PERSPECTIVE
+ METAPHOR
+##### My kid could have done that
+ * https://www.tandfonline.com/doi/abs/10.1080/15248372.2015.1014488
+4-7- and 8-10-year-olds with 18 paired images
+ * https://www.sciencedirect.com/science/article/pii/S0010027714002893
+this discrimination is made on the basis of perceived intentionality and perceived structure
+
 ### story telling
- * https://www.khanacademy.org/partner-content/pixar/storytelling/we-are-all-storytellers/v/storytelling-introb
+ * 
+https://www.khanacademy.org/partner-content/pixar/storytelling/we-are-all-storytellers/v/storytelling-introb
  * https://www.youtube.com/watch?v=hDp9hVDL49Y
 1. Take the listener to the same emotional journey you had when storytelling
 2. Have a mystery to keep listener engaged like Charity Water story

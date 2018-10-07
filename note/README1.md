@@ -1205,6 +1205,8 @@ Tensor product 张量
 SxT=(l, k)x(n, m)=(l+n, k+m)
 Tensor contraction 张量压缩
 ```
+##### mathematics-invented-discovered
+http://www.thinking-minds.net/mathematics-invented-discovered/
 #### tensorflow benchmark
  * https://github.com/tensorflow/benchmarks
  * https://github.com/soumith/convnet-benchmarks
@@ -1426,6 +1428,9 @@ Distributed Machine Learning https://github.com/Microsoft/DMTK
  * https://www.usenix.org/system/files/conference/nsdi17/nsdi17-hsieh.pdf
 
 # blockchain
+## Blockchain Technology Overview
+ * https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf
+ * https://news.ycombinator.com/item?id=18157363
 ## https://www.hyperledger.org/
 ## Atomic cross-chain trading
  * https://www.cointelligence.com/content/guide-to-atomic-swap-trustless-cross-chain-trading/ 
@@ -4016,6 +4021,9 @@ LBS
 
 # linux
 ## bash script
+### sysget
+ * https://github.com/emilengler/sysget?files=1
+ * https://news.ycombinator.com/item?id=18158337
 ### fish shell
  * https://news.ycombinator.com/item?id=15910897
  * https://fishshell.com/
@@ -4200,6 +4208,10 @@ echo '["dd","dd","ass","dcccc"]' |  jq 'reduce .[] as $item (""; . + $item)'
 showmount -e ip
 mount -t nfs 192.168.0.1:/tmp /mnt/nfs
 ```
+### os boots
+#### How Does an Intel Processor Boot?
+ * https://binarydebt.wordpress.com/2018/10/06/how-does-an-x86-processor-boot/
+ * https://news.ycombinator.com/item?id=18159675
 ### ps
 查找进程命令的工作目录
 ```
@@ -4924,6 +4936,11 @@ forget: 3 things: already know, not urgent, limitations
 activate: ask questions, code
 state: happy, 
 teach: learn to teach other, 
+##### What's a senior engineer's job?
+https://jvns.ca/blog/senior-engineer/
+##### Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs
+ * https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/
+ * https://news.ycombinator.com/item?id=18145205
 ##### 5 Ways To Increase Confidence, Assertiveness & Energy testosterone 睾丸素
  * https://www.youtube.com/watch?v=Llv9Lu9OH50
  * 1. 间歇性禁食(Intermittent Fasting)提高基础代谢率 （以下简称IF）
@@ -4966,6 +4983,10 @@ breath from diaphragm
 https://www.theguardian.com/books/2018/jan/28/12-rules-for-life-an-antidote-to-chaos-by-jordan-b-peterson-digested-read
 https://www.jianshu.com/p/ba3c8f6be1c5
 #### 诚实 honest
+##### How not to say the wrong thing
+ * http://articles.latimes.com/2013/apr/07/opinion/la-oe-0407-silk-ring-theory-20130407
+ * https://news.ycombinator.com/item?id=18156384
+Ring Theory comfort in, dump out
 ##### How to be honest with yourself
 如何对自己诚实
 Preparing to Self-Assess
@@ -5016,6 +5037,14 @@ If you can’t say anything nice, don’t say anything at all.
 2. 让自己被绑架
 3. 不确定的反馈
 4. 将大目标切碎，技能挑战比，心流，医生，厨师
+##### 5 productive tips
+5 Ways to Increase Productivity
+https://www.youtube.com/watch?v=N2_MtrTn1hE
+1. mental healthy, 1 day 1 week, 3 hours a day. schedule, share values
+2. say no
+3. ask for help
+4. perform rapid experiment
+5. detailed planning 5 hours, 10 hours
 #### Illusion of competence
 SHSM理论
 1. seeing not mean knowing
@@ -5146,7 +5175,9 @@ Unifying theory of 2+2
  * http://www.opensourcesoftwaredirectory.com/Utilities/Screen-capture
  * http://elearningindustry.com/top-10-free-camtasia-studio-alternatives
  * http://www.shoutmeloud.com/camtasia-alternatives-free-windwows-mac.html
-
+## AI ethical principles 
+ * https://news.ycombinator.com/item?id=18158523
+ * Examples of AI ethical principles?
 ## software license open source license 开源授权
  * https://github.com/blog/2318-announcing-open-source-guides
  * https://opensource.guide/
@@ -5182,8 +5213,11 @@ Unifying theory of 2+2
  * cardinals 基数 Ordinal 序数
  * transfinite 超穷基数
 ### Mathematics for Computer Science
- * https://courses.csail.mit.edu/6.042/spring17/mcs.pdf Mathematics for Computer Science
+ * https://courses.csail.mit.edu/6.042/spring17/mcs.pdf Mathematics for Computer Science 
+The Riemann Hypothesis, explained
  * https://www.theatlantic.com/education/archive/2013/10/the-myth-of-im-bad-at-math/280914/
+### Reimann
+https://medium.com/@JorgenVeisdal/the-riemann-hypothesis-explained-fa01c1f75d3f
 ### Probabilistic graphical models (PGMs)
  * https://www.coursera.org/specializations/probabilistic-graphical-models
 ### 概率
@@ -5429,6 +5463,9 @@ quasi-abstract 准抽象 Specially, the ability to have temporal location, but n
 Type–token distinction 区分类型和符号 the bicycle is becoming more popular" the word "bicycle" is a type representing a concept; whereas in the sentence "the bicycle is in the garage" the word "bicycle" is a token representing a particular object
 https://plato.stanford.edu/entries/abstract-objects/
 metaphysics 形而上学 epistemology 认识论
+### Progress in Philosophy
+  http://angryrainbowmermaids.blogspot.com/2018/05/progress-in-philosophy.html
+  https://news.ycombinator.com/item?id=18159034
 ### facts rules
 https://boklm.eu/prolog/page_4.html 
 Predicate 谓词, 谓语 断言

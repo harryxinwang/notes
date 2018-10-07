@@ -2255,6 +2255,7 @@ Python 2, there is also the unichr function. Python 3 you can use chr instead of
 string as possible -- i.e. + and * go as far as possible (the + and * are said to be "greedy"). leftmost and largest
 To use a dash without indicating a range, put the dash last, e.g. [abc-].  up-hat (^) at the start of a square-bracket set inverts it, so [^ab] 
 tuples = re.findall(r'([\w\.-]+)@([\w\.-]+)', str) 如果想要返回全字符串，就在最外加()
+https://developers.google.com/edu/python/regular-expressions
 #### fabric
  * http://www.fabfile.org/
  * https://pypi.python.org/pypi/Fabric3

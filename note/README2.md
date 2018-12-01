@@ -844,6 +844,12 @@ plugin/pkg/admission/initialization/initialization.go#Admit
  * https://www.cloudkarafka.com/blog/2016-12-05-apachekafka-vs-rabbitmq.html https://www.quora.com/What-are-the-differences-between-Apache-Kafka-and-RabbitMQ
  * http://blog.csdn.net/linsongbin1/article/details/47781187  性能比较
  * https://www.bizety.com/2017/06/05/open-source-stream-processing-flink-vs-spark-vs-storm-vs-kafka/
+##### nats pulsar kafka rocketmq rsocket
+ * https://www.netifi.com/proteus
+ * https://github.com/rsocket/rsocket/blob/master/FAQ.md
+ quic and Aeron
+ https://www.chromium.org/quic
+ https://github.com/real-logic/Aeron
 ##### Kafka and microservice
  * https://content.pivotal.io/blog/messaging-patterns-for-event-driven-microservices
  * https://content.pivotal.io/blog/understanding-when-to-use-rabbitmq-or-apache-kafka

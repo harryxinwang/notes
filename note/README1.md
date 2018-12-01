@@ -44,6 +44,51 @@
  * https://www.cio.com/article/3223191/artificial-intelligence/a-practical-guide-to-machine-learning-in-business.html
  * https://www.strategy-business.com/article/A-Strategists-Guide-to-Artificial-Intelligence?gko=0abb5 农业保险
  * https://www.cio.com/article/3223191/artificial-intelligence/a-practical-guide-to-machine-learning-in-business.html?page=2
+##### 市场定位
+ * https://www.entrepreneur.com/article/240164
+1. Industry information. 行业信息
+2. Consumer close-up. 客户信息
+3. Competition close-up. 竞争者信息
+ * https://www.forbes.com/sites/kathleengriffith/2017/12/07/4-ways-to-identify-market-fit/#59c6f9687fbe
+Look to your consumers first. 客户
+Pay attention to your competitors. 竞争者
+market amplifies your business 团队优势行业
+Decide if you are obsessed with your industry. 兴趣
+https://www.jianshu.com/p/dc46ece1b3ad?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+产品规划 品牌沟通 营销推广
+https://baijiahao.baidu.com/s?id=1603962316321790911&wfr=spider&for=pc
+产品 服务 销售 价格
+##### How can you quickly learn an industry
+ * https://www.quora.com/How-can-you-quickly-learn-an-industry
+1. find the leader
+2. check blogs
+3. find the dominated company
+4. Quora about what are the key areas
+5. hours of work each and every day
+ * https://www.mergersandinquisitions.com/how-to-learn-an-industry/
+focus solely on the revenue and expenses, and, more importantly, the justification for those revenue and expense figures. 主要集中精力在收入和支出
+有限的背景阅读 Do Limited Background Reading to Generate Ideas [Industry Name] trends 要搜趋势
+free industry reports the Big 4 firms publish:
+小公司的收入和花费 Model and Justify a Smaller Company’s Revenue and Expenses
+大公司的收入和花费 Model and Justify a Larger Company’s Revenue and Expenses
+Tie Your Work into Common Interview Questions
+1. 2-3个主要趋势
+2. 如何让行业运转 客户如何花钱，每个公司花钱的方式，进入和退出市场的原因
+3. 找一个代表趋势的小公司
+ * https://www2.deloitte.com/us/en/pages/strategy/solutions/consulting-services-for-industries.html 免费行业资讯
+ * https://www.vccafe.com/2014/08/11/10-tools-for-understanding-and-dissecting-an-industry/ 免费行业资讯
+ *
+https://www.forbes.com/sites/jessicashortall/2016/06/15/learn-fast-how-to-skill-up-in-any-industry-at-any-time/#67dcf6b32d94
+Take it one step at a time Admit what you don’t know
+Don’t be afraid to go back to (a little bit of) school Put in the work
+ * https://corporatefinanceinstitute.com/resources/knowledge/strategy/industry-analysis-methods/
+define a business model
+https://www.altexsoft.com/blog/business/using-business-model-canvas-to-launch-a-technology-startup-or-improve-established-operating-model/
+ThesisReport_Zeena%20Spijkerman.pdf A Comparative Case Analysis of Open Source Software Business Models The creation of a blueprint for Open Source Software start-ups
+
+https://blogs.cisco.com/datacenter/seven-software-business-models-part-1
+https://blogs.cisco.com/datacenter/seven-software-business-models-part-2
+
 #### 市场份额 Market Share
 #### 市场预测 Market Forecast
 ### forrester
@@ -928,6 +973,8 @@ https://blog.csdn.net/taoyanqi8932/article/details/54409314
  * https://digitaldefynd.com/best-artificial-intelligence-courses-training-certifications/
  * Stanford University, Coursera
  * Udacity Machine Learning Nano Degree
+ * https://github.com/open-source-for-science/TensorFlow-Course
+ * http://mbmlbook.com/toc.html
 #### 计划
 ##### 1.
 http://pandas.pydata.org/pandas-docs/stable/10min.html
@@ -3990,6 +4037,10 @@ http://blog.vdcresearch.com/embedded_sw/2015/08/iot-use-cases-for-enigma-homomor
  QMA is related to other known complexity classes by the following relations: P ⊆ N P ⊆ M A ⊆ Q C M A ⊆ Q M A ⊆ P P ⊆ P S P A C E  
  https://arxiv.org/pdf/quant-ph/0412187.pdf Quantum Computing, Postselection, and Probabilistic
 Polynomial-Time
+#### p-hacking P值操纵
+数据疏浚(data dredging)有时候指得是“数据捕鱼(data fishing)
+ * https://www.howsci.com/p-hacking.html
+ * https://medium.com/ml-everything/predicting-the-stock-market-p-hacking-and-why-you-should-be-bullish-90fddc583838
 ####
  * http://blog.sina.com.cn/s/blog_606aba7d0102vh1r.html 预选取和后选择分别是过去和未来的事件 pre-selection post-selection 弱测量场景下的后选择
  * Probability and the Monty Hall problem 三门问题
@@ -4910,6 +4961,41 @@ http://www.world-of-lucid-dreaming.com/hypnagogic-state.html
 1. answer with your feelings
 2. talk something related, not answer questions directly
 3. pause and let others to opt'in
+##### 40+ software engineer
+https://news.ycombinator.com/item?id=18208076
+#####
+ * http://time.com/collection-post/3881954/matthew-mcconaughey-graduation-speech-university-of-houston/
+ * https://www.youtube.com/watch?v=O3YD8OVmRfY
+ * https://www.youtube.com/watch?v=wD2cVhC-63I
+##### alk to People
+ * https://www.nytimes.com/2018/11/17/style/self-care/terry-gross-conversation-advice.html
+ Tell me about yourself,” a.k.a the only icebreaker you’ll ever need 打破沉默
+ The secret to being a good conversationalist? Curiosity. 好奇
+ Be funny (if you can). mentally organized, reasonably concise and energetic 有趣 思路有组织，简捷而有感染力
+ Preparation is key. 准备
+ Take control by pivoting to something you want to talk about. et me share an experience. 转向分享经历
+ dodge questions I don’t want to answer that, I’m having a difficult time thinking of a specific answer to that. I’m afraid by answering that I’m going to hurt somebody’s feelings and I don’t want to do that, 我现在无法回答。我目前没有确切的答案。我想回答这个问题会伤害其他人，不太好回答。
+ Terry pays attention to body language.  
+
+##### STEM
+ * https://thestempedia.com/blog/things-every-learner-needs-to-know-about-effective-learning/
+Observe and Apply
+Combine Words and Visuals
+Don’t Multitask
+
+Science, Technology, Engineering, and Mathematics 
+科学技术工程数学
+curiosity, creativity, critical thinking, problem-solving and innovation skills
+好奇心，创造性，关键性思维，解决问题和创新的技能
+What Why How
+https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics
+
+##### 培养孩子
+1. 延迟给零食
+2. 爸妈不上桌不吃
+3. 锻炼勇气和坚持
+4. 
+
 
 ##### 6 Mindsets That Will Make You Magnetic
 1. always OK 没事的
@@ -5045,6 +5131,41 @@ https://www.youtube.com/watch?v=N2_MtrTn1hE
 3. ask for help
 4. perform rapid experiment
 5. detailed planning 5 hours, 10 hours
+#### antifragility of software engineer
+软件反脆弱 https://dzone.com/articles/from-fragile-to-antifragile-software
+https://www.slideshare.net/makabee/antifragile-software-design
+Open for extension, closed for for modification
+
+杠铃理论
+fragile 脆弱
+robust 鲁棒
+resilient 弹性
+antifragile 反脆弱
+##### 延迟满足
+https://www.huxiu.com/article/228340.html
+今日头条全家桶
+https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_4579061917006185666%22%7D&n_type=1&p_from=4
+张一鸣的鸡汤  
+https://t.qianzhan.com/daka/detail/161026-95fa5187.html
+广告收入一年近100亿的今日头条
+https://baike.baidu.com/tashuo/browse/content?id=287cbd9a632e7aaeaaf47002&fr=qingtian&lemmaId=15898544
+##### delayed Gratification
+https://www.fastcompany.com/3067188/how-and-why-to-master-the-habit-of-delaying-gratification
+https://www.quora.com/How-do-you-learn-to-delay-gratification
+https://www.psychologytoday.com/us/blog/obesely-speaking/201401/delayed-gratification-battle-must-be-won
+https://qz.com/1295538/the-marshmallow-test-taught-the-world-the-wrong-lesson-about-delayed-gratification/
+https://jamesclear.com/delayed-gratification
+坚持每天的习惯
+Start incredibly small. Make your new habit “so easy you can't say no.”
+Improve one thing, by one percent. 
+
+FIND SOMETHING ELSE YOU LIKE
+TAKE A MOMENT TO DRIFT OFF
+CONSIDER WHAT YOU’RE THANKFUL FOR
+Build new habits
+
+
+
 #### Illusion of competence
 SHSM理论
 1. seeing not mean knowing
@@ -5148,6 +5269,11 @@ https://www.youtube.com/watch?v=670ZGMBjrPI
  REPETITION, RHYTHM, ORDERLINESS
  GENERIC PERSPECTIVE
  METAPHOR
+#####
+ * http://www.unc.edu/~gguo/papers/05%20twin%20studies%20Contexts.pdf
+ * https://www.nytimes.com/2018/08/20/well/family/what-twins-can-teach-us-about-nature-vs-nurture.html
+ * https://www.nytimes.com/2018/08/20/well/family/what-twins-can-teach-us-about-nature-vs-nurture.html
+ * https://www.washingtonpost.com/national/health-science/scientists-see-twins-as-the-perfect-laboratory-to-examine-the-impact-of-nature-vs-nurture/2018/09/28/d8423d16-9bfc-11e8-b60b-1c897f17e185_story.html?noredirect=on&utm_term=.edcc75af8b95
 ##### My kid could have done that
  * https://www.tandfonline.com/doi/abs/10.1080/15248372.2015.1014488
 4-7- and 8-10-year-olds with 18 paired images
@@ -5161,8 +5287,24 @@ https://www.khanacademy.org/partner-content/pixar/storytelling/we-are-all-storyt
 1. Take the listener to the same emotional journey you had when storytelling
 2. Have a mystery to keep listener engaged like Charity Water story
 3. Have a lesson at the end for personal development as the Scott Harrison interview
+#### pixar
 https://www.youtube.com/watch?v=KxDwieKpawg
+Andrew Stanton: The clues to a great story
+Let the audience work their meal: non dialogue, people are born problem solvers, 缺少信息才有吸引力, every character has a spine 主线 戏剧是混合了不确定性的预测 主题 用经历的真实 讲内心信仰
 Unifying theory of 2+2
+https://www.youtube.com/watch?v=dIA2vxqvn04
+Science of Storytelling 4 major steps
+engagement 交流
+transportation 
+relevance
+influence
+https://www.youtube.com/watch?v=7TR4N4WOadM
+3 Storytelling Tips To Hook Any Audience
+exposition(emotion and mystery)
+diversions, fun, character development
+payoff, climax interview(listening, not pushing up)
+
+
 
 # software tools 软件工具
 ## screen recorder 录屏软件  
